@@ -54,6 +54,8 @@
     "dotnet.defaultSolution": "Yshvelia.sln",
     "cSpell.words": [
         "Cinemachine",
+        "Hitbox",
+        "Hitboxes",
         "Yshvelia"
     ]
 }

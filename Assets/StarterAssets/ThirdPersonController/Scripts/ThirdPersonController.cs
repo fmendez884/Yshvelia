@@ -97,6 +97,7 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        private int _animIDPunch;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -111,6 +112,8 @@ namespace StarterAssets
         private bool _hasAnimator;
 
         private bool canMove = true;
+
+        private GameObject hitbox;
 
         private bool IsCurrentDeviceMouse
         {
@@ -152,6 +155,11 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+
+            hitbox = GameObject.Find("HitboxJab");
+            Debug.Log(hitbox);
+            hitbox.SetActive(false);
+            Debug.Log(hitbox.activeSelf);
         }
 
         private void Update()
@@ -178,6 +186,7 @@ namespace StarterAssets
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            _animIDPunch = Animator.StringToHash("Punch");
         }
 
         private void GroundedCheck()
@@ -261,7 +270,7 @@ namespace StarterAssets
             if (_input.move != Vector2.zero)
             {
                 _targetRotation = Mathf.Atan2(inputDirection.x, inputDirection.z) * Mathf.Rad2Deg +
-                                  _mainCamera.transform.eulerAngles.y;
+                                _mainCamera.transform.eulerAngles.y;
                 float rotation = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetRotation, ref _rotationVelocity,
                     RotationSmoothTime);
 
@@ -396,6 +405,23 @@ namespace StarterAssets
 
         private void Punch()
         {
+            // if (_input.punch)
+            // {
+            //     Debug.Log("Punch");
+
+            //     canMoveTrigger();
+                
+            //     if (_hasAnimator)
+            //         {
+            //             // _animator.SetBool(_animIDPunch, true);
+            //             _animator.SetTrigger(_animIDPunch);
+            //         }
+            // }
+            // _animator.SetTrigger(_animIDPunch);
+            // _input.punch = false;
+            // canMoveTrigger();
+            // // _animator.SetBool(_animIDPunch, false);
+
             if (_input.punch)
             {
                 Debug.Log("Punch");
@@ -403,15 +429,31 @@ namespace StarterAssets
                 if (_hasAnimator)
                     {
                         // _animator.SetBool(_animIDPunch, true);
-                        // _animator.SetTrigger(_animIDPunch);s
+                        _animator.SetTrigger(_animIDPunch);
                     }
             }
             _input.punch = false;
             // _animator.SetBool(_animIDPunch, false);
         }
 
-        private void canMoveTrigger(){
+        private void canMoveTrigger()
+        {
             canMove = !canMove;
+        }
+
+        private void hitboxTrigger()
+        {
+            hitbox.SetActive(!hitbox.activeSelf);
+        }
+
+        private void enableHitbox() 
+        {
+            hitbox.SetActive(true);
+        }
+
+        private void disableHitbox()
+        {
+            hitbox.SetActive(false);
         }
     }
 }
