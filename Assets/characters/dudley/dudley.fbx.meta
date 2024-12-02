@@ -1,0 +1,3877 @@
+fileFormatVersion: 2
+guid: 858e93f893f0bcc47b8e201aaac500a1
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_-Rose.Rose_0.1_0_0.002
+    second: {fileID: 2100000, guid: 185536a254aa9c94daad383230e258d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_DDL_0.1_0_0.003
+    second: {fileID: 2100000, guid: ba1fe57f1f5722f48bb7e8c2daba4bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_DDL_0.1_0_0.004
+    second: {fileID: 2100000, guid: 6256d0053fdd8fc4a83b013b6330afc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_Head_0.1_0_0.002
+    second: {fileID: 2100000, guid: 1dd448476d5cd7e4ba78a55d290fa698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_Other_0.1_0_0.002
+    second: {fileID: 2100000, guid: 0efe2e26c8f3174409991ca09233ffab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_PantsOther_0.1_0_0.002
+    second: {fileID: 2100000, guid: ac557743b9a876947910ee9d7a279c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_Pants_0.1_0_0.002
+    second: {fileID: 2100000, guid: 78bc1f65d93795f47a0997857b6d065d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24_Socks_0.1_0_0.002
+    second: {fileID: 2100000, guid: 40cd2e741ab8dff42a60cdcb6a236872, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature|ATK_2HK_001' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine upper' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'head
+      neck upper' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm right shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm right wrist' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      left shoulder 2' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'arm left wrist' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'Armature|ATK_2HP_001'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_2LK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_2LP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_2MK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_2MP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_5HK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_5HP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_5LK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_5LP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_5MK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_5MP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_6HK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_6HP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_6LP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_6MK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_6MP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_8HK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_8HP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_8LK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_8LP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_8MK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_8MP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_9HK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_9HP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_9LK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_9LP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_9MK_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_9MP_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature|ATK_SAVING_001' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine
+      upper' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\t'head neck upper' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'arm right shoulder 2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'arm
+      right wrist' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\t'arm left shoulder 2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'arm left wrist' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Armature|ATK_2HK_001':\n\tLeftUpperArm
+      average position error 48.6 mm and maximum position error 100.0 mm at time
+      1:18 (51.9%) Frame 42\n\tLeftLowerArm average position error 101.3 mm and maximum
+      position error 263.5 mm at time 0: 0 (0.0%) Frame 0\n\tLeftHand average position
+      error 73.0 mm and maximum position error 252.5 mm at time 0: 0 (0.0%) Frame
+      0\n\tRightUpperArm average position error 47.4 mm and maximum position error
+      96.4 mm at time 1:18 (51.9%) Frame 42\n\tRightLowerArm average position error
+      78.5 mm and maximum position error 125.3 mm at time 1:19 (53.1%) Frame 43\n\tRightHand
+      average position error 67.4 mm and maximum position error 178.4 mm at time
+      1:19 (53.1%) Frame 43\n\tHead average position error 86.5 mm and maximum position
+      error 177.0 mm at time 1:18 (51.9%) Frame 42\n\nRetargeting quality report
+      for clip 'Armature|ATK_2HP_001':\n\tLeftUpperArm average position error 43.0
+      mm and maximum position error 82.8 mm at time 0: 5 (11.4%) Frame 5\n\tLeftLowerArm
+      average position error 132.7 mm and maximum position error 263.5 mm at time
+      0: 0 (0.0%) Frame 0\n\tLeftHand average position error 109.7 mm and maximum
+      position error 252.5 mm at time 1:20 (100.0%) Frame 44\n\tRightUpperArm average
+      position error 42.3 mm and maximum position error 85.8 mm at time 0: 5 (11.4%)
+      Frame 5\n\tRightLowerArm average position error 88.4 mm and maximum position
+      error 146.4 mm at time 1:11 (79.5%) Frame 35\n\tRightHand average position
+      error 54.7 mm and maximum position error 140.8 mm at time 0: 6 (13.6%) Frame
+      6\n\tHead average position error 76.9 mm and maximum position error 152.0 mm
+      at time 0: 5 (11.4%) Frame 5\n\nRetargeting quality report for clip 'Armature|ATK_2LK_001':\n\tLeftUpperArm
+      average position error 54.3 mm and maximum position error 69.3 mm at time 0:
+      1 (4.2%) Frame 1\n\tLeftLowerArm average position error 125.9 mm and maximum
+      position error 263.5 mm at time 0: 0 (0.0%) Frame 0\n\tLeftHand average position
+      error 95.9 mm and maximum position error 252.5 mm at time 1: 0 (100.0%) Frame
+      24\n\tRightUpperArm average position error 52.3 mm and maximum position error
+      66.6 mm at time 0: 1 (4.2%) Frame 1\n\tRightLowerArm average position error
+      123.9 mm and maximum position error 160.4 mm at time 0: 9 (37.5%) Frame 9\n\tRightHand
+      average position error 40.9 mm and maximum position error 80.2 mm at time 1:
+      0 (100.0%) Frame 24\n\tHead average position error 96.1 mm and maximum position
+      error 122.4 mm at time 0: 1 (4.2%) Frame 1\n\nRetargeting quality report for
+      clip 'Armature|ATK_2LP_001':\n\tLeftUpperArm average position error 82.7 mm
+      and maximum position error 93.8 mm at time 0:11 (32.4%) Frame 11\n\tLeftLowerArm
+      average position error 121.0 mm and maximum position error 263.5 mm at time
+      0: 0 (0.0%) Frame 0\n\tLeftHand average position error 98.1 mm and maximum
+      position error 252.5 mm at time 0: 0 (0.0%) Frame 0\n\tRightUpperArm average
+      position error 81.0 mm and maximum position error 92.9 mm at time 0:11 (32.4%)
+      Frame 11\n\tRightLowerArm average position error 92.4 mm and maximum position
+      error 144.1 mm at time 0: 3 (8.8%) Frame 3\n\tRightHand average position error
+      68.9 mm and maximum position error 90.9 mm at time 1: 3 (79.4%) Frame 27\n\tHead
+      average position error 147.6 mm and maximum position error 168.4 mm at time
+      0:11 (32.4%) Frame 11\n\nRetargeting quality report for clip 'Armature|ATK_2MK_001':\n\tLeftUpperArm
+      average position error 45.1 mm and maximum position error 86.2 mm at time 0:
+      4 (8.2%) Frame 4\n\tLeftLowerArm average position error 110.5 mm and maximum
+      position error 263.5 mm at time 2: 1 (100.0%) Frame 49\n\tLeftHand average
+      position error 117.4 mm and maximum position error 254.9 mm at time 1:15 (79.6%)
+      Frame 39\n\tRightUpperArm average position error 46.6 mm and maximum position
+      error 86.6 mm at time 0: 4 (8.2%) Frame 4\n\tRightLowerArm average position
+      error 103.6 mm and maximum position error 178.7 mm at time 0:12 (24.5%) Frame
+      12\n\tRightHand average position error 41.3 mm and maximum position error 94.1
+      mm at time 1:17 (83.7%) Frame 41\n\tHead average position error 82.6 mm and
+      maximum position error 155.7 mm at time 0: 4 (8.2%) Frame 4\n\nRetargeting
+      quality report for clip 'Armature|ATK_2MP_001':\n\tLeftUpperArm average position
+      error 67.1 mm and maximum position error 86.5 mm at time 1: 7 (79.5%) Frame
+      31\n\tLeftLowerArm average position error 173.0 mm and maximum position error
+      263.5 mm at time 0: 0 (0.0%) Frame 0\n\tLeftHand average position error 119.9
+      mm and maximum position error 252.5 mm at time 1:15 (100.0%) Frame 39\n\tRightUpperArm
+      average position error 67.7 mm and maximum position error 87.9 mm at time 1:
+      6 (76.9%) Frame 30\n\tRightLowerArm average position error 121.7 mm and maximum
+      position error 233.4 mm at time 1: 0 (61.5%) Frame 24\n\tRightHand average
+      position error 43.8 mm and maximum position error 160.8 mm at time 0: 7 (17.9%)
+      Frame 7\n\tHead average position error 121.5 mm and maximum position error
+      157.1 mm at time 1: 6 (76.9%) Frame 30\n\nRetargeting quality report for clip
+      'Armature|ATK_5HK_001':\n\tLeftUpperArm average position error 21.6 mm and
+      maximum position error 52.0 mm at time 0: 6 (13.6%) Frame 6\n\tLeftLowerArm
+      average position error 213.5 mm and maximum position error 318.3 mm at time
+      0:13 (29.5%) Frame 13\n\tLeftHand average position error 155.2 mm and maximum
+      position error 259.0 mm at time 0:11 (25.0%) Frame 11\n\tRightUpperArm average
+      position error 21.5 mm and maximum position error 51.7 mm at time 0: 6 (13.6%)
+      Frame 6\n\tRightLowerArm average position error 125.6 mm and maximum position
+      error 208.7 mm at time 1:15 (88.6%) Frame 39\n\tRightHand average position
+      error 79.6 mm and maximum position error 165.6 mm at time 0: 9 (20.5%) Frame
+      9\n\tHead average position error 38.8 mm and maximum position error 93.4 mm
+      at time 0: 6 (13.6%) Frame 6\n\nRetargeting quality report for clip 'Armature|ATK_5HP_001':\n\tLeftUpperArm
+      average position error 18.0 mm and maximum position error 35.1 mm at time 0:12
+      (24.5%) Frame 12\n\tLeftLowerArm average position error 176.5 mm and maximum
+      position error 266.7 mm at time 0:13 (26.5%) Frame 13\n\tLeftHand average position
+      error 132.5 mm and maximum position error 209.8 mm at time 0:14 (28.6%) Frame
+      14\n\tRightUpperArm average position error 18.3 mm and maximum position error
+      34.6 mm at time 0:12 (24.5%) Frame 12\n\tRightLowerArm average position error
+      108.2 mm and maximum position error 190.8 mm at time 0: 1 (2.0%) Frame 1\n\tRightHand
+      average position error 49.6 mm and maximum position error 182.2 mm at time
+      0:13 (26.5%) Frame 13\n\tHead average position error 32.7 mm and maximum position
+      error 62.8 mm at time 0:12 (24.5%) Frame 12\n\nRetargeting quality report for
+      clip 'Armature|ATK_5LK_001':\n\tLeftUpperArm average position error 18.5 mm
+      and maximum position error 36.6 mm at time 0: 5 (14.7%) Frame 5\n\tLeftLowerArm
+      average position error 193.0 mm and maximum position error 266.7 mm at time
+      0:17 (50.0%) Frame 17\n\tLeftHand average position error 120.5 mm and maximum
+      position error 180.9 mm at time 0: 7 (20.6%) Frame 7\n\tRightUpperArm average
+      position error 19.7 mm and maximum position error 37.4 mm at time 0: 5 (14.7%)
+      Frame 5\n\tRightLowerArm average position error 118.1 mm and maximum position
+      error 190.6 mm at time 0: 0 (0.0%) Frame 0\n\tRightHand average position error
+      80.3 mm and maximum position error 173.9 mm at time 0:17 (50.0%) Frame 17\n\tHead
+      average position error 34.4 mm and maximum position error 66.7 mm at time 0:
+      5 (14.7%) Frame 5\n\nRetargeting quality report for clip 'Armature|ATK_5LP_001':\n\tLeftUpperArm
+      average position error 30.3 mm and maximum position error 47.9 mm at time 0:12
+      (35.3%) Frame 12\n\tLeftLowerArm average position error 138.1 mm and maximum
+      position error 223.9 mm at time 0:22 (64.7%) Frame 22\n\tLeftHand average position
+      error 103.3 mm and maximum position error 204.3 mm at time 0: 5 (14.7%) Frame
+      5\n\tRightUpperArm average position error 30.7 mm and maximum position error
+      47.9 mm at time 0:18 (52.9%) Frame 18\n\tRightLowerArm average position error
+      207.9 mm and maximum position error 233.0 mm at time 0: 6 (17.6%) Frame 6\n\tRightHand
+      average position error 105.4 mm and maximum position error 138.0 mm at time
+      0:10 (29.4%) Frame 10\n\tHead average position error 54.9 mm and maximum position
+      error 85.6 mm at time 0:12 (35.3%) Frame 12\n\nRetargeting quality report for
+      clip 'Armature|ATK_5MK_001':\n\tLeftUpperArm average position error 22.5 mm
+      and maximum position error 38.6 mm at time 0: 3 (7.7%) Frame 3\n\tLeftLowerArm
+      average position error 119.5 mm and maximum position error 205.6 mm at time
+      0: 7 (17.9%) Frame 7\n\tLeftHand average position error 85.0 mm and maximum
+      position error 194.2 mm at time 0: 9 (23.1%) Frame 9\n\tRightUpperArm average
+      position error 22.7 mm and maximum position error 37.8 mm at time 0: 3 (7.7%)
+      Frame 3\n\tRightLowerArm average position error 201.7 mm and maximum position
+      error 243.2 mm at time 0:11 (28.2%) Frame 11\n\tRightHand average position
+      error 70.0 mm and maximum position error 108.5 mm at time 0:19 (48.7%) Frame
+      19\n\tHead average position error 40.7 mm and maximum position error 68.8 mm
+      at time 0: 3 (7.7%) Frame 3\n\nRetargeting quality report for clip 'Armature|ATK_5MP_001':\n\tLeftUpperArm
+      average position error 16.0 mm and maximum position error 46.6 mm at time 0:
+      3 (7.7%) Frame 3\n\tLeftLowerArm average position error 199.6 mm and maximum
+      position error 293.0 mm at time 0: 9 (23.1%) Frame 9\n\tLeftHand average position
+      error 115.3 mm and maximum position error 179.9 mm at time 0: 8 (20.5%) Frame
+      8\n\tRightUpperArm average position error 16.0 mm and maximum position error
+      44.6 mm at time 0: 3 (7.7%) Frame 3\n\tRightLowerArm average position error
+      136.3 mm and maximum position error 251.4 mm at time 1: 3 (69.2%) Frame 27\n\tRightHand
+      average position error 95.5 mm and maximum position error 187.7 mm at time
+      0: 5 (12.8%) Frame 5\n\tHead average position error 28.8 mm and maximum position
+      error 82.2 mm at time 0: 3 (7.7%) Frame 3\n\nRetargeting quality report for
+      clip 'Armature|ATK_6HK_001':\n\tLeftUpperArm average position error 24.8 mm
+      and maximum position error 45.1 mm at time 0: 7 (13.0%) Frame 7\n\tLeftLowerArm
+      average position error 185.4 mm and maximum position error 327.0 mm at time
+      1: 3 (50.0%) Frame 27\n\tLeftHand average position error 131.1 mm and maximum
+      position error 237.9 mm at time 0:20 (37.0%) Frame 20\n\tRightUpperArm average
+      position error 24.9 mm and maximum position error 46.1 mm at time 0: 7 (13.0%)
+      Frame 7\n\tRightLowerArm average position error 104.9 mm and maximum position
+      error 190.6 mm at time 0: 0 (0.0%) Frame 0\n\tRightHand average position error
+      46.3 mm and maximum position error 105.6 mm at time 2: 5 (98.1%) Frame 53\n\tHead
+      average position error 44.8 mm and maximum position error 82.0 mm at time 0:
+      7 (13.0%) Frame 7\n\nRetargeting quality report for clip 'Armature|ATK_6HP_001':\n\tLeftUpperArm
+      average position error 41.4 mm and maximum position error 80.2 mm at time 0:10
+      (20.4%) Frame 10\n\tLeftLowerArm average position error 179.7 mm and maximum
+      position error 277.3 mm at time 0:17 (34.7%) Frame 17\n\tLeftHand average position
+      error 120.2 mm and maximum position error 260.9 mm at time 0:23 (46.9%) Frame
+      23\n\tRightUpperArm average position error 41.2 mm and maximum position error
+      78.9 mm at time 1:11 (71.4%) Frame 35\n\tRightLowerArm average position error
+      99.3 mm and maximum position error 190.6 mm at time 2: 1 (100.0%) Frame 49\n\tRightHand
+      average position error 52.1 mm and maximum position error 176.5 mm at time
+      0:17 (34.7%) Frame 17\n\tHead average position error 74.4 mm and maximum position
+      error 143.3 mm at time 1:11 (71.4%) Frame 35\n\nRetargeting quality report
+      for clip 'Armature|ATK_6LP_001':\n\tLeftUpperArm average position error 34.7
+      mm and maximum position error 48.6 mm at time 0: 9 (23.1%) Frame 9\n\tLeftLowerArm
+      average position error 137.9 mm and maximum position error 256.4 mm at time
+      0: 7 (17.9%) Frame 7\n\tLeftHand average position error 88.9 mm and maximum
+      position error 180.5 mm at time 0: 7 (17.9%) Frame 7\n\tRightUpperArm average
+      position error 34.4 mm and maximum position error 47.5 mm at time 0: 9 (23.1%)
+      Frame 9\n\tRightLowerArm average position error 208.5 mm and maximum position
+      error 239.3 mm at time 0:20 (51.3%) Frame 20\n\tRightHand average position
+      error 106.7 mm and maximum position error 161.4 mm at time 0:13 (33.3%) Frame
+      13\n\tHead average position error 62.2 mm and maximum position error 86.6 mm
+      at time 0: 9 (23.1%) Frame 9\n\nRetargeting quality report for clip 'Armature|ATK_6MK_001':\n\tLeftUpperArm
+      average position error 32.6 mm and maximum position error 62.4 mm at time 0:23
+      (59.0%) Frame 23\n\tLeftLowerArm average position error 187.8 mm and maximum
+      position error 271.0 mm at time 0:11 (28.2%) Frame 11\n\tLeftHand average position
+      error 103.1 mm and maximum position error 189.9 mm at time 0:11 (28.2%) Frame
+      11\n\tRightUpperArm average position error 32.5 mm and maximum position error
+      61.0 mm at time 0:23 (59.0%) Frame 23\n\tRightLowerArm average position error
+      149.3 mm and maximum position error 221.6 mm at time 1: 9 (84.6%) Frame 33\n\tRightHand
+      average position error 93.3 mm and maximum position error 181.1 mm at time
+      0: 8 (20.5%) Frame 8\n\tHead average position error 58.7 mm and maximum position
+      error 111.2 mm at time 0:23 (59.0%) Frame 23\n\nRetargeting quality report
+      for clip 'Armature|ATK_6MP_001':\n\tLeftUpperArm average position error 34.6
+      mm and maximum position error 64.1 mm at time 1: 6 (68.2%) Frame 30\n\tLeftLowerArm
+      average position error 134.9 mm and maximum position error 219.9 mm at time
+      0:11 (25.0%) Frame 11\n\tLeftHand average position error 77.7 mm and maximum
+      position error 158.2 mm at time 0: 4 (9.1%) Frame 4\n\tRightUpperArm average
+      position error 34.6 mm and maximum position error 64.4 mm at time 1: 7 (70.5%)
+      Frame 31\n\tRightLowerArm average position error 160.4 mm and maximum position
+      error 204.7 mm at time 0:15 (34.1%) Frame 15\n\tRightHand average position
+      error 61.4 mm and maximum position error 110.5 mm at time 0: 7 (15.9%) Frame
+      7\n\tHead average position error 62.4 mm and maximum position error 115.8 mm
+      at time 1: 7 (70.5%) Frame 31\n\nRetargeting quality report for clip 'Armature|ATK_8HK_001':\n\tLeftUpperArm
+      average position error 54.0 mm and maximum position error 96.1 mm at time 0:10
+      (20.4%) Frame 10\n\tLeftLowerArm average position error 114.0 mm and maximum
+      position error 146.3 mm at time 1:17 (83.7%) Frame 41\n\tLeftHand average position
+      error 72.6 mm and maximum position error 113.2 mm at time 0: 8 (16.3%) Frame
+      8\n\tRightUpperArm average position error 55.8 mm and maximum position error
+      97.8 mm at time 0:10 (20.4%) Frame 10\n\tRightLowerArm average position error
+      77.5 mm and maximum position error 164.4 mm at time 0: 2 (4.1%) Frame 2\n\tRightHand
+      average position error 104.3 mm and maximum position error 249.6 mm at time
+      0: 9 (18.4%) Frame 9\n\tHead average position error 99.0 mm and maximum position
+      error 174.7 mm at time 0:10 (20.4%) Frame 10\n\nRetargeting quality report
+      for clip 'Armature|ATK_8HP_001':\n\tLeftUpperArm average position error 41.1
+      mm and maximum position error 68.8 mm at time 1: 8 (76.2%) Frame 32\n\tLeftLowerArm
+      average position error 156.0 mm and maximum position error 260.1 mm at time
+      0:21 (50.0%) Frame 21\n\tLeftHand average position error 70.9 mm and maximum
+      position error 183.2 mm at time 0:10 (23.8%) Frame 10\n\tRightUpperArm average
+      position error 40.2 mm and maximum position error 66.1 mm at time 1: 8 (76.2%)
+      Frame 32\n\tRightLowerArm average position error 117.8 mm and maximum position
+      error 197.1 mm at time 1: 9 (78.6%) Frame 33\n\tRightHand average position
+      error 57.6 mm and maximum position error 118.1 mm at time 1: 3 (64.3%) Frame
+      27\n\tHead average position error 73.2 mm and maximum position error 121.7
+      mm at time 1: 8 (76.2%) Frame 32\n\nRetargeting quality report for clip 'Armature|ATK_8LK_001':\n\tLeftUpperArm
+      average position error 54.1 mm and maximum position error 93.1 mm at time 0:
+      7 (24.1%) Frame 7\n\tLeftLowerArm average position error 124.3 mm and maximum
+      position error 197.7 mm at time 0:21 (72.4%) Frame 21\n\tLeftHand average position
+      error 87.4 mm and maximum position error 172.4 mm at time 0:21 (72.4%) Frame
+      21\n\tRightUpperArm average position error 54.7 mm and maximum position error
+      93.5 mm at time 0: 7 (24.1%) Frame 7\n\tRightLowerArm average position error
+      129.8 mm and maximum position error 160.3 mm at time 0:18 (62.1%) Frame 18\n\tRightHand
+      average position error 72.4 mm and maximum position error 130.9 mm at time
+      0:17 (58.6%) Frame 17\n\tHead average position error 98.1 mm and maximum position
+      error 168.0 mm at time 0: 7 (24.1%) Frame 7\n\nRetargeting quality report for
+      clip 'Armature|ATK_8LP_001':\n\tLeftUpperArm average position error 47.9 mm
+      and maximum position error 70.3 mm at time 1:15 (100.0%) Frame 39\n\tLeftLowerArm
+      average position error 105.3 mm and maximum position error 254.0 mm at time
+      0: 3 (7.7%) Frame 3\n\tLeftHand average position error 100.2 mm and maximum
+      position error 263.9 mm at time 0: 3 (7.7%) Frame 3\n\tRightUpperArm average
+      position error 46.5 mm and maximum position error 71.7 mm at time 1:15 (100.0%)
+      Frame 39\n\tRightLowerArm average position error 181.3 mm and maximum position
+      error 201.3 mm at time 0: 8 (20.5%) Frame 8\n\tRightHand average position error
+      78.7 mm and maximum position error 126.1 mm at time 1:10 (87.2%) Frame 34\n\tHead
+      average position error 85.1 mm and maximum position error 127.9 mm at time
+      1:15 (100.0%) Frame 39\n\nRetargeting quality report for clip 'Armature|ATK_8MK_001':\n\tLeftUpperArm
+      average position error 47.0 mm and maximum position error 80.3 mm at time 1:
+      3 (81.8%) Frame 27\n\tLeftLowerArm average position error 135.1 mm and maximum
+      position error 264.4 mm at time 0: 7 (21.2%) Frame 7\n\tLeftHand average position
+      error 69.5 mm and maximum position error 209.5 mm at time 0: 6 (18.2%) Frame
+      6\n\tRightUpperArm average position error 45.6 mm and maximum position error
+      77.1 mm at time 1: 4 (84.8%) Frame 28\n\tRightLowerArm average position error
+      87.9 mm and maximum position error 173.0 mm at time 1: 6 (90.9%) Frame 30\n\tRightHand
+      average position error 41.5 mm and maximum position error 114.6 mm at time
+      0: 2 (6.1%) Frame 2\n\tHead average position error 83.4 mm and maximum position
+      error 141.7 mm at time 1: 4 (84.8%) Frame 28\n\nRetargeting quality report
+      for clip 'Armature|ATK_8MP_001':\n\tLeftUpperArm average position error 33.3
+      mm and maximum position error 55.0 mm at time 1:15 (100.0%) Frame 39\n\tLeftLowerArm
+      average position error 182.9 mm and maximum position error 250.1 mm at time
+      0: 9 (23.1%) Frame 9\n\tLeftHand average position error 120.9 mm and maximum
+      position error 226.1 mm at time 0:15 (38.5%) Frame 15\n\tRightUpperArm average
+      position error 33.5 mm and maximum position error 55.4 mm at time 1:15 (100.0%)
+      Frame 39\n\tRightLowerArm average position error 133.5 mm and maximum position
+      error 199.7 mm at time 1: 3 (69.2%) Frame 27\n\tRightHand average position
+      error 63.4 mm and maximum position error 192.6 mm at time 0: 7 (17.9%) Frame
+      7\n\tHead average position error 60.2 mm and maximum position error 99.5 mm
+      at time 1:15 (100.0%) Frame 39\n\nRetargeting quality report for clip 'Armature|ATK_9HK_001':\n\tLeftUpperArm
+      average position error 41.4 mm and maximum position error 64.8 mm at time 0:
+      4 (8.2%) Frame 4\n\tLeftLowerArm average position error 62.3 mm and maximum
+      position error 141.7 mm at time 0: 0 (0.0%) Frame 0\n\tLeftHand average position
+      error 75.1 mm and maximum position error 182.8 mm at time 0: 9 (18.4%) Frame
+      9\n\tRightUpperArm average position error 40.2 mm and maximum position error
+      64.9 mm at time 0: 4 (8.2%) Frame 4\n\tRightLowerArm average position error
+      132.1 mm and maximum position error 157.6 mm at time 1:16 (81.6%) Frame 40\n\tRightHand
+      average position error 68.6 mm and maximum position error 116.4 mm at time
+      1:17 (83.7%) Frame 41\n\tHead average position error 73.4 mm and maximum position
+      error 116.9 mm at time 0: 4 (8.2%) Frame 4\n\nRetargeting quality report for
+      clip 'Armature|ATK_9HP_001':\n\tLeftUpperArm average position error 36.4 mm
+      and maximum position error 65.9 mm at time 0:22 (44.9%) Frame 22\n\tLeftLowerArm
+      average position error 123.1 mm and maximum position error 234.1 mm at time
+      0:13 (26.5%) Frame 13\n\tLeftHand average position error 80.7 mm and maximum
+      position error 250.1 mm at time 0:13 (26.5%) Frame 13\n\tRightUpperArm average
+      position error 35.7 mm and maximum position error 65.4 mm at time 0:22 (44.9%)
+      Frame 22\n\tRightLowerArm average position error 106.2 mm and maximum position
+      error 156.8 mm at time 1: 8 (65.3%) Frame 32\n\tRightHand average position
+      error 60.4 mm and maximum position error 135.1 mm at time 0: 9 (18.4%) Frame
+      9\n\tHead average position error 64.9 mm and maximum position error 118.2 mm
+      at time 0:22 (44.9%) Frame 22\n\nRetargeting quality report for clip 'Armature|ATK_9LK_001':\n\tLeftUpperArm
+      average position error 63.7 mm and maximum position error 78.3 mm at time 0:10
+      (25.6%) Frame 10\n\tLeftLowerArm average position error 79.6 mm and maximum
+      position error 157.9 mm at time 0:21 (53.8%) Frame 21\n\tLeftHand average position
+      error 31.1 mm and maximum position error 110.9 mm at time 0:20 (51.3%) Frame
+      20\n\tRightUpperArm average position error 65.0 mm and maximum position error
+      80.1 mm at time 0:10 (25.6%) Frame 10\n\tRightLowerArm average position error
+      59.0 mm and maximum position error 169.7 mm at time 1:15 (100.0%) Frame 39\n\tRightHand
+      average position error 167.3 mm and maximum position error 229.3 mm at time
+      0:10 (25.6%) Frame 10\n\tHead average position error 115.9 mm and maximum position
+      error 142.7 mm at time 0:10 (25.6%) Frame 10\n\nRetargeting quality report
+      for clip 'Armature|ATK_9LP_001':\n\tLeftUpperArm average position error 28.3
+      mm and maximum position error 41.0 mm at time 1: 2 (78.8%) Frame 26\n\tLeftLowerArm
+      average position error 111.1 mm and maximum position error 327.5 mm at time
+      0: 2 (6.1%) Frame 2\n\tLeftHand average position error 67.9 mm and maximum
+      position error 278.6 mm at time 0: 3 (9.1%) Frame 3\n\tRightUpperArm average
+      position error 28.5 mm and maximum position error 40.8 mm at time 1: 1 (75.8%)
+      Frame 25\n\tRightLowerArm average position error 170.7 mm and maximum position
+      error 227.1 mm at time 0: 8 (24.2%) Frame 8\n\tRightHand average position error
+      90.5 mm and maximum position error 120.1 mm at time 0: 2 (6.1%) Frame 2\n\tHead
+      average position error 51.2 mm and maximum position error 73.7 mm at time 1:
+      1 (75.8%) Frame 25\n\nRetargeting quality report for clip 'Armature|ATK_9MK_001':\n\tLeftUpperArm
+      average position error 53.4 mm and maximum position error 83.0 mm at time 0:13
+      (33.3%) Frame 13\n\tLeftLowerArm average position error 152.2 mm and maximum
+      position error 235.8 mm at time 0:18 (46.2%) Frame 18\n\tLeftHand average position
+      error 41.3 mm and maximum position error 123.4 mm at time 0: 6 (15.4%) Frame
+      6\n\tRightUpperArm average position error 51.3 mm and maximum position error
+      81.4 mm at time 0:13 (33.3%) Frame 13\n\tRightLowerArm average position error
+      89.8 mm and maximum position error 158.5 mm at time 1:13 (94.9%) Frame 37\n\tRightHand
+      average position error 73.9 mm and maximum position error 258.2 mm at time
+      0: 3 (7.7%) Frame 3\n\tHead average position error 94.4 mm and maximum position
+      error 148.2 mm at time 0:13 (33.3%) Frame 13\n\nRetargeting quality report
+      for clip 'Armature|ATK_9MP_001':\n\tLeftUpperArm average position error 33.3
+      mm and maximum position error 43.2 mm at time 0:16 (48.5%) Frame 16\n\tLeftLowerArm
+      average position error 159.6 mm and maximum position error 185.7 mm at time
+      0: 6 (18.2%) Frame 6\n\tLeftHand average position error 136.5 mm and maximum
+      position error 185.8 mm at time 0: 4 (12.1%) Frame 4\n\tRightUpperArm average
+      position error 33.6 mm and maximum position error 46.0 mm at time 0:16 (48.5%)
+      Frame 16\n\tRightLowerArm average position error 85.6 mm and maximum position
+      error 184.5 mm at time 0: 2 (6.1%) Frame 2\n\tRightHand average position error
+      75.4 mm and maximum position error 178.8 mm at time 0: 2 (6.1%) Frame 2\n\tHead
+      average position error 60.3 mm and maximum position error 80.2 mm at time 0:16
+      (48.5%) Frame 16\n\nRetargeting quality report for clip 'Armature|ATK_SAVING_001':\n\tLeftUpperArm
+      average position error 48.2 mm and maximum position error 77.2 mm at time 2:22
+      (64.2%) Frame 70\n\tLeftLowerArm average position error 163.4 mm and maximum
+      position error 217.0 mm at time 3: 1 (67.0%) Frame 73\n\tLeftHand average position
+      error 110.3 mm and maximum position error 249.8 mm at time 3: 1 (67.0%) Frame
+      73\n\tRightUpperArm average position error 48.5 mm and maximum position error
+      82.4 mm at time 2:22 (64.2%) Frame 70\n\tRightLowerArm average position error
+      136.1 mm and maximum position error 199.3 mm at time 2:20 (62.4%) Frame 68\n\tRightHand
+      average position error 69.9 mm and maximum position error 184.5 mm at time
+      3: 9 (74.3%) Frame 81\n\tHead average position error 87.2 mm and maximum position
+      error 143.8 mm at time 2:22 (64.2%) Frame 70\n"
+    animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ATK_2HK_001
+      takeName: Armature|ATK_2HK_001
+      internalID: 7450143294663002880
+      firstFrame: 0
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_2HP_001
+      takeName: Armature|ATK_2HP_001
+      internalID: -7567170353295610308
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_2LK_001
+      takeName: Armature|ATK_2LK_001
+      internalID: 2650077704598965667
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_2LP_001
+      takeName: Armature|ATK_2LP_001
+      internalID: 2523938377576410083
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_2MK_001
+      takeName: Armature|ATK_2MK_001
+      internalID: 4918791659664923367
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_2MP_001
+      takeName: Armature|ATK_2MP_001
+      internalID: 5176983307453423738
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_5HK_001
+      takeName: Armature|ATK_5HK_001
+      internalID: -3865410947749352107
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_5HP_001
+      takeName: Armature|ATK_5HP_001
+      internalID: 2584337850213166731
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_5LK_001
+      takeName: Armature|ATK_5LK_001
+      internalID: -2597363696765640168
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_5LP_001
+      takeName: Armature|ATK_5LP_001
+      internalID: 3208649635109834612
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_5MK_001
+      takeName: Armature|ATK_5MK_001
+      internalID: -3463132294002419078
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_5MP_001
+      takeName: Armature|ATK_5MP_001
+      internalID: -1957088113017012623
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_6HK_001
+      takeName: Armature|ATK_6HK_001
+      internalID: -571471241948451979
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_6HP_001
+      takeName: Armature|ATK_6HP_001
+      internalID: 4535345511106968569
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_6LP_001
+      takeName: Armature|ATK_6LP_001
+      internalID: 1878812964473135859
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_6MK_001
+      takeName: Armature|ATK_6MK_001
+      internalID: 5790803896106328455
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_6MP_001
+      takeName: Armature|ATK_6MP_001
+      internalID: -6732519336507245038
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_8HK_001
+      takeName: Armature|ATK_8HK_001
+      internalID: 714969488484019120
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_8HP_001
+      takeName: Armature|ATK_8HP_001
+      internalID: 2989823919529600349
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_8LK_001
+      takeName: Armature|ATK_8LK_001
+      internalID: -6122047873461689019
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_8LP_001
+      takeName: Armature|ATK_8LP_001
+      internalID: 7345421418036407145
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_8MK_001
+      takeName: Armature|ATK_8MK_001
+      internalID: -7989759523467334202
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_8MP_001
+      takeName: Armature|ATK_8MP_001
+      internalID: 8639852307297535802
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_9HK_001
+      takeName: Armature|ATK_9HK_001
+      internalID: 1891828493469484139
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_9HP_001
+      takeName: Armature|ATK_9HP_001
+      internalID: 4714329309755862432
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_9LK_001
+      takeName: Armature|ATK_9LK_001
+      internalID: 1933110342420758438
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_9LP_001
+      takeName: Armature|ATK_9LP_001
+      internalID: -3983295200787255680
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_9MK_001
+      takeName: Armature|ATK_9MK_001
+      internalID: -6469627115743969641
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_9MP_001
+      takeName: Armature|ATK_9MP_001
+      internalID: 2462169399257392722
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ATK_SAVING_001
+      takeName: Armature|ATK_SAVING_001
+      internalID: 8476003877168288253
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: root hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg left thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg right thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg left knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg right knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg left ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg right ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine lower
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head neck lower
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left shoulder 1
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right shoulder 1
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left shoulder 1.5
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right shoulder 1.5
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left wrist root
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right wrist root
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg left toes
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg right toes
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head eye socket left
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head eye socket right
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: unused arm left finger 3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left finger 3a
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: unused arm left finger 1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left finger 1a
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm left finger 1b
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: unused arm right finger 3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right finger 3a
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: unused arm right finger 1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right finger 1a
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm right finger 1b
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: dudley(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root ground
+      parentName: Armature
+      position: {x: -0, y: 0, z: -0.0112}
+      rotation: {x: -6.123234e-17, y: -0, z: 1, w: -3.3087225e-24}
+      scale: {x: 1, y: 0.9999989, z: 0.9999989}
+    - name: unused root hips fix 2
+      parentName: root ground
+      position: {x: -0, y: 0, z: 0.0111}
+      rotation: {x: -0.000000031901102, y: -0.6836477, z: 0.7298122, w: 0.000000029883186}
+      scale: {x: 1, y: 0.9999991, z: 0.9999988}
+    - name: unused root hips fix 1
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: 0.0000000087029175, y: 0.68364805, z: -0.72981197, w: 0.000000051614006}
+      scale: {x: 1.0000046, y: 1.0000023, z: 1.0000026}
+    - name: unused lnd
+      parentName: unused root hips fix 1
+      position: {x: -4.1888513e-18, y: -4.6566128e-12, z: -4.656602e-11}
+      rotation: {x: 0.00000041723246, y: 0.000000031786517, z: -1.065814e-14, w: 1}
+      scale: {x: 0.99999887, y: 0.9999979, z: 0.9999987}
+    - name: unused lnd_end
+      parentName: unused lnd
+      position: {x: -0, y: 0.00005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root hips
+      parentName: unused root hips fix 1
+      position: {x: 7.090203e-10, y: 0.0002699945, z: 0.011152855}
+      rotation: {x: 0.000000018682579, y: -0.7071065, z: -0.7071071, w: 0.000000055403675}
+      scale: {x: 0.9999981, y: 0.99999917, z: 0.9999997}
+    - name: spine lower
+      parentName: root hips
+      position: {x: -7.334165e-11, y: 0.0014577986, z: 7.916242e-11}
+      rotation: {x: -1.6651981e-15, y: -0.000000052386923, z: 0.000000005820768, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: spine upper
+      parentName: spine lower
+      position: {x: 6.286427e-11, y: 0.0014577803, z: -8.1025064e-10}
+      rotation: {x: -0, y: -0, z: -0.0000000010913954, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000008}
+    - name: head neck lower
+      parentName: spine upper
+      position: {x: -7.4505804e-11, y: 0.0018680992, z: -2.2351741e-10}
+      rotation: {x: -1.7867002e-16, y: -0.000000005820765, z: -0.000000022191674,
+        w: 1}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1}
+    - name: head neck upper
+      parentName: head neck lower
+      position: {x: -2.2351741e-10, y: 0.0014025192, z: 3.5390257e-10}
+      rotation: {x: 0.29870072, y: 0.000759744, z: 0.0007597413, w: 0.9543463}
+      scale: {x: 1.000001, y: 0.9999977, z: 1.0000018}
+    - name: head eyelid right lower
+      parentName: head neck upper
+      position: {x: 0.00041018717, y: 0.0010228317, z: 0.00038246578}
+      rotation: {x: -0.19632208, y: -0.00083563896, z: -0.00067519455, w: 0.9805389}
+      scale: {x: 0.9999993, y: 1, z: 0.99999964}
+    - name: head eyelid right upper
+      parentName: head eyelid right lower
+      position: {x: -0, y: 0.00012978121, z: 2.9802322e-10}
+      rotation: {x: 0.000000014901158, y: -0.000000021944283, z: -0.00000010260553,
+        w: 1}
+      scale: {x: 1.0000012, y: 0.99999994, z: 1.0000011}
+    - name: head eyelid right upper_end
+      parentName: head eyelid right upper
+      position: {x: -0, y: 0.00012978048, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek line right upper
+      parentName: head neck upper
+      position: {x: 0.00033161914, y: 0.0006528316, z: 0.0006407167}
+      rotation: {x: 0.83533037, y: 0.3288805, z: 0.17309643, w: 0.40509063}
+      scale: {x: 0.99999934, y: 0.9999991, z: 1.0000005}
+    - name: head cheek line right upper_end
+      parentName: head cheek line right upper
+      position: {x: -0, y: 0.00081039313, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eye socket right
+      parentName: head neck upper
+      position: {x: 0.00033737533, y: 0.0009458849, z: 0.0004368318}
+      rotation: {x: 0.6904646, y: 0.57656527, z: 0.30251974, w: 0.31513953}
+      scale: {x: 1.0000013, y: 1.0000006, z: 1.0000013}
+    - name: head eye socket right_end
+      parentName: head eye socket right
+      position: {x: -0, y: 0.0005571628, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyebrow right 1
+      parentName: head neck upper
+      position: {x: 0.00015633242, y: 0.0013216367, z: 0.00041889958}
+      rotation: {x: -0.59965926, y: -0.5210811, z: -0.2733783, w: 0.54235375}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000002}
+    - name: head eyebrow right 2
+      parentName: head eyebrow right 1
+      position: {x: 0.000018969029, y: 0.00021889061, z: -0.00007288426}
+      rotation: {x: -0.1549448, y: -0.060075894, z: 0.21685497, w: 0.9619547}
+      scale: {x: 0.99999934, y: 1.0000018, z: 1.0000005}
+    - name: head eyebrow right 3
+      parentName: head eyebrow right 2
+      position: {x: 0.00000094948336, y: 0.00034524978, z: -0.00004946083}
+      rotation: {x: -0.14068824, y: -0.062643014, z: 0.0062118154, w: 0.9880507}
+      scale: {x: 1.000001, y: 1.0000033, z: 0.9999965}
+    - name: head eyebrow right 3_end
+      parentName: head eyebrow right 3
+      position: {x: -0, y: 0.00017740876, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyebrow hair right 2
+      parentName: head eyebrow right 2
+      position: {x: -0.00000094912946, y: 0.000004505515, z: 0.000049460006}
+      rotation: {x: 0.048982285, y: 0.02316288, z: 0.029711496, w: 0.99808896}
+      scale: {x: 0.9999981, y: 1.0000002, z: 1.0000023}
+    - name: head eyebrow hair right 3
+      parentName: head eyebrow hair right 2
+      position: {x: 5.2154064e-10, y: 0.0003412451, z: -3.72529e-10}
+      rotation: {x: -0.000000029802315, y: 0.000000042840828, z: -0.000000024796458,
+        w: 1}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000004}
+    - name: head eyebrow hair right 3_end
+      parentName: head eyebrow hair right 3
+      position: {x: -0, y: 0.0003412449, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyebrow hair right 1
+      parentName: head eyebrow right 1
+      position: {x: -0.00001896888, y: 0.00002526745, z: 0.000072888135}
+      rotation: {x: 0.081876144, y: 0.30586693, z: 0.9423057, w: 0.10863629}
+      scale: {x: 1.000002, y: 0.9999974, z: 1.0000056}
+    - name: head eyebrow hair right 1_end
+      parentName: head eyebrow hair right 1
+      position: {x: -0, y: 0.00012265684, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyelid left corner outer
+      parentName: head neck upper
+      position: {x: -0.0005239573, y: 0.0010300161, z: 0.00019968927}
+      rotation: {x: -0.5992611, y: 0.7001887, z: 0.36564085, w: 0.13011111}
+      scale: {x: 1.0000045, y: 1.0000038, z: 1.0000033}
+    - name: head eyelid left corner outer_end
+      parentName: head eyelid left corner outer
+      position: {x: -0, y: 0.0005607784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head jaw
+      parentName: head neck upper
+      position: {x: 0.00000037858263, y: 0.00024953112, z: -0.000069817674}
+      rotation: {x: 0.672468, y: -0.001038858, z: 0.00027186295, w: 0.74012536}
+      scale: {x: 0.9999996, y: 1.0000019, z: 1.0000029}
+    - name: head chin
+      parentName: head jaw
+      position: {x: 2.9802322e-10, y: 0.0011645139, z: 0.00018912784}
+      rotation: {x: 0.24297619, y: 0.00000019284191, z: 0.00000017019914, w: 0.9700322}
+      scale: {x: 1, y: 0.99999976, z: 1.0000029}
+    - name: head chin_end
+      parentName: head chin
+      position: {x: -0, y: 0.00040121077, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip lower left 1
+      parentName: head jaw
+      position: {x: -0.00011179969, y: 0.0010005947, z: -0.00009815678}
+      rotation: {x: -0.21549328, y: 0.9375046, z: -0.2448563, w: -0.12121589}
+      scale: {x: 1.0000038, y: 1.000003, z: 0.9999988}
+    - name: head lip lower left 1_end
+      parentName: head lip lower left 1
+      position: {x: -0, y: 0.00024125342, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip lower left 2
+      parentName: head jaw
+      position: {x: -0.00023334309, y: 0.00094987237, z: -0.00012863695}
+      rotation: {x: -0.46771437, y: 0.85380274, z: -0.22299534, w: 0.050372317}
+      scale: {x: 1.0000018, y: 1.000002, z: 0.999999}
+    - name: head lip lower left 2_end
+      parentName: head lip lower left 2
+      position: {x: -0, y: 0.00030061995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip lower right 1
+      parentName: head jaw
+      position: {x: 0.00011180013, y: 0.0010005945, z: -0.00009815671}
+      rotation: {x: 0.21549325, y: 0.9375044, z: -0.24485603, w: 0.12121742}
+      scale: {x: 1.0000027, y: 1.000002, z: 0.99999833}
+    - name: head lip lower right 1_end
+      parentName: head lip lower right 1
+      position: {x: -0, y: 0.00024125341, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip lower right 2
+      parentName: head jaw
+      position: {x: 0.00023334316, y: 0.00094987336, z: -0.00012863583}
+      rotation: {x: 0.4677143, y: 0.853803, z: -0.22299483, w: -0.05037114}
+      scale: {x: 1.0000021, y: 1.0000021, z: 0.9999993}
+    - name: head lip lower right 2_end
+      parentName: head lip lower right 2
+      position: {x: -0, y: 0.00030061987, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head tongue 1
+      parentName: head jaw
+      position: {x: -1.4901161e-10, y: 0.0006092136, z: 0.0002650213}
+      rotation: {x: -0.000000072526745, y: 0.96754426, z: -0.25270188, w: 0.00000073882984}
+      scale: {x: 1.0000051, y: 1.000004, z: 1.0000001}
+    - name: head tongue 2
+      parentName: head tongue 1
+      position: {x: -7.4505804e-11, y: 0.0001609841, z: 1.4901161e-10}
+      rotation: {x: 3.6183218e-14, y: 0.000000017458829, z: 0.000000046576304, w: 1}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000002}
+    - name: head tongue 3
+      parentName: head tongue 2
+      position: {x: 1.4901161e-10, y: 0.00018122472, z: 6.705522e-10}
+      rotation: {x: 1.470278e-14, y: -0.00000001168638, z: 0.000000023205896, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000004}
+    - name: head tongue 4
+      parentName: head tongue 3
+      position: {x: -9.313225e-11, y: 0.0001609867, z: 6.705522e-10}
+      rotation: {x: -5.0762624e-14, y: 1.8189892e-12, z: -0.00000006978632, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 0.99999976}
+    - name: head tongue 4_end
+      parentName: head tongue 4
+      position: {x: -0, y: 0.000160987, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head teeth lower
+      parentName: head jaw
+      position: {x: 7.4505804e-11, y: 0.00000006988645, z: -0.0000005543232}
+      rotation: {x: -1, y: 0.0000000060535967, z: -0.00000075071875, w: 0.00034257743}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: head teeth lower_end
+      parentName: head teeth lower
+      position: {x: -0, y: 0.0008106067, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip upper left 1
+      parentName: head neck upper
+      position: {x: -0.00008951945, y: 0.0005860138, z: 0.00084923697}
+      rotation: {x: -0.62499535, y: 0.47908503, z: 0.24991909, w: 0.56338173}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000011}
+    - name: head lip upper left 2
+      parentName: head lip upper left 1
+      position: {x: 0.000044295946, y: 0.00017977862, z: -0.00008379042}
+      rotation: {x: -0.38593513, y: 0.1746795, z: -0.3181542, w: 0.8481269}
+      scale: {x: 1.0000005, y: 1.0000038, z: 1.000002}
+    - name: head lip upper left 2_end
+      parentName: head lip upper left 2
+      position: {x: -0, y: 0.000109416695, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mustache left 1
+      parentName: head lip upper left 1
+      position: {x: -0.00004429707, y: 0.00007043533, z: 0.0000837899}
+      rotation: {x: -0.000000025320329, y: 0.20890783, z: 0.81469136, w: 0.54095805}
+      scale: {x: 1.0000015, y: 1.0000066, z: 1.0000027}
+    - name: mustache left 2
+      parentName: mustache left 1
+      position: {x: 1.862645e-10, y: 3.7252902e-11, z: -7.8231094e-10}
+      rotation: {x: 0.000000114168444, y: 0.000020325177, z: -0.8338855, w: 0.5519375}
+      scale: {x: 1.0000015, y: 1.0000005, z: 1.0000004}
+    - name: mustache left 3
+      parentName: mustache left 2
+      position: {x: -1.4901161e-10, y: 0.00028000033, z: -8.5681673e-10}
+      rotation: {x: 0.00000004112255, y: 0.000000062132116, z: -0.00000011921158,
+        w: 1}
+      scale: {x: 0.99999905, y: 0.9999993, z: 1.0000001}
+    - name: mustache left 3_end
+      parentName: mustache left 3
+      position: {x: -0, y: 0.00028000012, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyebrow left 1
+      parentName: head neck upper
+      position: {x: -0.00015529958, y: 0.001321947, z: 0.00041830636}
+      rotation: {x: -0.59965926, y: 0.52064484, z: 0.27169567, w: 0.54361683}
+      scale: {x: 1.0000021, y: 1.0000008, z: 1.0000013}
+    - name: head eyebrow left 2
+      parentName: head eyebrow left 1
+      position: {x: -0.000018968582, y: 0.00021889097, z: -0.0000728862}
+      rotation: {x: -0.15494457, y: 0.060075834, z: -0.2168546, w: 0.96195483}
+      scale: {x: 0.9999997, y: 0.9999999, z: 1.0000002}
+    - name: head eyebrow left 3
+      parentName: head eyebrow left 2
+      position: {x: -0.00000094912946, y: 0.00034525013, z: -0.000049460006}
+      rotation: {x: -0.14068827, y: 0.06264318, z: -0.006212068, w: 0.9880506}
+      scale: {x: 1.0000017, y: 1.0000039, z: 0.9999986}
+    - name: head eyebrow left 3_end
+      parentName: head eyebrow left 3
+      position: {x: -0, y: 0.00017740866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyebrow hair left 2
+      parentName: head eyebrow left 2
+      position: {x: 0.0000009498745, y: 0.000004506223, z: 0.00004946142}
+      rotation: {x: 0.048982162, y: -0.023163104, z: -0.02971158, w: 0.9980889}
+      scale: {x: 0.99999875, y: 1.0000014, z: 1.0000031}
+    - name: head eyebrow hair left 3
+      parentName: head eyebrow hair left 2
+      position: {x: 7.4505804e-11, y: 0.00034124518, z: 7.45058e-10}
+      rotation: {x: 0.0000000707805, y: 0.00000012665984, z: 0.00000013143287, w: 1}
+      scale: {x: 1.0000011, y: 0.9999995, z: 0.9999996}
+    - name: head eyebrow hair left 3_end
+      parentName: head eyebrow hair left 3
+      position: {x: -0, y: 0.00034124477, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyebrow hair left 1
+      parentName: head eyebrow left 1
+      position: {x: 0.000018968247, y: 0.00002526708, z: 0.00007288582}
+      rotation: {x: 0.08187616, y: -0.30586666, z: -0.9423058, w: 0.10863599}
+      scale: {x: 1.0000011, y: 0.9999958, z: 1.000006}
+    - name: head eyebrow hair left 1_end
+      parentName: head eyebrow hair left 1
+      position: {x: -0, y: 0.00012265684, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyeball left
+      parentName: head neck upper
+      position: {x: -0.0003475225, y: 0.001019015, z: 0.00019484486}
+      rotation: {x: 0.00000057169666, y: 0.886038, z: 0.46361154, w: 0.0010740659}
+      scale: {x: 1.000005, y: 1.0000035, z: 1.0000023}
+    - name: head eyepupil left
+      parentName: head eyeball left
+      position: {x: -1.862645e-10, y: 0.00014921508, z: 0.0000000016391277}
+      rotation: {x: 0.000000089490875, y: -0.000000034808174, z: 0.00000006982718,
+        w: 1}
+      scale: {x: 0.999999, y: 0.99999917, z: 0.9999995}
+    - name: head eyepupil left_end
+      parentName: head eyepupil left
+      position: {x: -0, y: 0.00014921486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek left upper
+      parentName: head neck upper
+      position: {x: -0.0006294815, y: 0.00080294756, z: 0.00036180965}
+      rotation: {x: 0.7410468, y: -0.59152293, z: -0.30861035, w: 0.0755646}
+      scale: {x: 1.0000023, y: 1.0000019, z: 1.0000018}
+    - name: head cheek left upper_end
+      parentName: head cheek left upper
+      position: {x: -0, y: 0.0007583637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyeball right
+      parentName: head neck upper
+      position: {x: 0.00034880056, y: 0.0010183214, z: 0.00019617021}
+      rotation: {x: -0.000000056070327, y: 0.886038, z: 0.46361154, w: 0.0010744733}
+      scale: {x: 1.000005, y: 1.0000038, z: 1.0000023}
+    - name: head eyepupil right
+      parentName: head eyeball right
+      position: {x: 1.7695129e-10, y: 0.00014921471, z: 0.0000000020861626}
+      rotation: {x: 8.1828835e-11, y: 0.000000058207654, z: 0.00000011644461, w: 1}
+      scale: {x: 1.0000007, y: 1.0000012, z: 1.0000013}
+    - name: head eyepupil right_end
+      parentName: head eyepupil right
+      position: {x: -0, y: 0.00014921493, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip corner root
+      parentName: head neck upper
+      position: {x: 0.0000011185742, y: 0.00055425696, z: -0.0002995746}
+      rotation: {x: 0.8159484, y: -0.0009560471, z: 0.0004891777, w: 0.57812375}
+      scale: {x: 0.9999996, y: 1.0000011, z: 1.0000024}
+    - name: head lip corner left
+      parentName: head lip corner root
+      position: {x: -0.00032562512, y: 0.0010482979, z: -0.00017006561}
+      rotation: {x: -0.42939654, y: 0.78129745, z: -0.3991375, w: -0.21420135}
+      scale: {x: 1.0000012, y: 1.0000013, z: 1.000007}
+    - name: head lip corner left_end
+      parentName: head lip corner left
+      position: {x: -0, y: 0.00038674433, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek left lower
+      parentName: head lip corner root
+      position: {x: -0.00070266513, y: 0.0008008925, z: 0.00030650778}
+      rotation: {x: -0.72221595, y: 0.47872317, z: -0.2445634, w: -0.43522063}
+      scale: {x: 0.9999992, y: 1.0000012, z: 1.0000066}
+    - name: head cheek left lower_end
+      parentName: head cheek left lower
+      position: {x: -0, y: 0.00077697315, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek right lower
+      parentName: head lip corner root
+      position: {x: 0.0007026636, y: 0.0008008933, z: 0.00030650987}
+      rotation: {x: -0.72221595, y: -0.4787233, z: 0.2445621, w: -0.43522134}
+      scale: {x: 0.9999996, y: 1.0000026, z: 1.0000076}
+    - name: head cheek right lower_end
+      parentName: head cheek right lower
+      position: {x: -0, y: 0.00077697326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip corner right
+      parentName: head lip corner root
+      position: {x: 0.0003256246, y: 0.0010482975, z: -0.00017006471}
+      rotation: {x: 0.42939627, y: 0.78129745, z: -0.39913675, w: 0.21420284}
+      scale: {x: 0.9999984, y: 0.9999992, z: 1.0000058}
+    - name: head lip corner right_end
+      parentName: head lip corner right
+      position: {x: -0, y: 0.00038674424, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek line right lower
+      parentName: head lip corner root
+      position: {x: 0.0005032488, y: 0.00093299686, z: -0.0001364427}
+      rotation: {x: -0.60936356, y: -0.6873621, z: 0.3511484, w: -0.18139544}
+      scale: {x: 1.0000002, y: 1.0000027, z: 1.0000077}
+    - name: head cheek line right lower_end
+      parentName: head cheek line right lower
+      position: {x: -0, y: 0.0005214475, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek line left lower
+      parentName: head lip corner root
+      position: {x: -0.0005032492, y: 0.0009329961, z: -0.00013644397}
+      rotation: {x: -0.60936373, y: 0.68736166, z: -0.35114953, w: -0.18139423}
+      scale: {x: 0.9999989, y: 1.0000013, z: 1.0000067}
+    - name: head cheek line left lower_end
+      parentName: head cheek line left lower
+      position: {x: -0, y: 0.0005214477, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyelid left lower
+      parentName: head neck upper
+      position: {x: -0.00040960833, y: 0.0010236483, z: 0.00038090508}
+      rotation: {x: -0.19632237, y: -0.00083565025, z: -0.00067522156, w: 0.9805388}
+      scale: {x: 0.9999995, y: 0.99999976, z: 1.0000001}
+    - name: head eyelid left upper
+      parentName: head eyelid left lower
+      position: {x: -2.2351741e-10, y: 0.00012978092, z: -2.9802322e-10}
+      rotation: {x: 0.00000007450579, y: -0.000000012223606, z: -0.00000005686887,
+        w: 1}
+      scale: {x: 1.0000006, y: 0.9999999, z: 1.0000005}
+    - name: head eyelid left upper_end
+      parentName: head eyelid left upper
+      position: {x: -0, y: 0.00012978047, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head nose top
+      parentName: head neck upper
+      position: {x: 0.00000056372954, y: 0.0013097001, z: 0.00042647123}
+      rotation: {x: 0.46353957, y: 0.1403069, z: 0.07397644, w: 0.8717641}
+      scale: {x: 0.99999976, y: 1.0000037, z: 1.0000031}
+    - name: head nose top_end
+      parentName: head nose top
+      position: {x: -0, y: 0.00051447, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek line left upper
+      parentName: head neck upper
+      position: {x: -0.00033276126, y: 0.00065349357, z: 0.00063945126}
+      rotation: {x: 0.8356391, y: -0.32892022, z: -0.17109115, w: 0.40527362}
+      scale: {x: 1.0000005, y: 1.0000043, z: 1.0000051}
+    - name: head cheek line left upper_end
+      parentName: head cheek line left upper
+      position: {x: -0, y: 0.0008095605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head lip upper right 1
+      parentName: head neck upper
+      position: {x: 0.00008744748, y: 0.0005858372, z: 0.0008495746}
+      rotation: {x: -0.6044701, y: -0.50026536, z: -0.26249224, w: 0.5616479}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000007}
+    - name: head lip upper right 2
+      parentName: head lip upper right 1
+      position: {x: -0.00005459942, y: 0.00017498195, z: -0.00008776933}
+      rotation: {x: -0.38020074, y: -0.17086785, z: 0.36023983, w: 0.8345531}
+      scale: {x: 0.9999986, y: 1.000006, z: 1.000002}
+    - name: head lip upper right 2_end
+      parentName: head lip upper right 2
+      position: {x: -0, y: 0.00011583647, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mustache right 1
+      parentName: head lip upper right 1
+      position: {x: 0.00005460009, y: 0.00007041633, z: 0.00008776828}
+      rotation: {x: 0.000000238826, y: 0.21793939, z: 0.7962519, w: -0.564345}
+      scale: {x: 0.999998, y: 1.0000027, z: 0.999999}
+    - name: mustache right 2
+      parentName: mustache right 1
+      position: {x: -1.3969838e-10, y: 2.9802322e-10, z: 2.9802322e-10}
+      rotation: {x: -0.0000003670771, y: -0.00000005960463, z: -0.8338858, w: -0.55193704}
+      scale: {x: 1.0000024, y: 1.0000008, z: 1.0000032}
+    - name: mustache right 3
+      parentName: mustache right 2
+      position: {x: -3.72529e-10, y: 0.00028000033, z: -0.0000000011920929}
+      rotation: {x: 0.000000012336825, y: -0.000000018638774, z: 0.00000014901157,
+        w: 1}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000007}
+    - name: mustache right 3_end
+      parentName: mustache right 3
+      position: {x: -0, y: 0.00028, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head cheek right upper
+      parentName: head neck upper
+      position: {x: 0.00062969036, y: 0.0008016931, z: 0.0003642074}
+      rotation: {x: 0.74074256, y: 0.59104246, z: 0.3101557, w: 0.075978994}
+      scale: {x: 1.0000021, y: 1.0000027, z: 1.0000019}
+    - name: head cheek right upper_end
+      parentName: head cheek right upper
+      position: {x: -0, y: 0.00076004636, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eyelid right corner outer
+      parentName: head neck upper
+      position: {x: 0.000525237, y: 0.0010289707, z: 0.00020168684}
+      rotation: {x: 0.599332, y: 0.69967574, z: 0.36682594, w: -0.12920478}
+      scale: {x: 1.0000032, y: 1.0000024, z: 1.0000015}
+    - name: head eyelid right corner outer_end
+      parentName: head eyelid right corner outer
+      position: {x: -0, y: 0.0005626734, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head eye socket left
+      parentName: head neck upper
+      position: {x: -0.00033715725, y: 0.0009465572, z: 0.00043554752}
+      rotation: {x: 0.6908851, y: -0.57649034, z: -0.3008055, w: 0.31599477}
+      scale: {x: 1.0000021, y: 1.0000021, z: 1.0000027}
+    - name: head eye socket left_end
+      parentName: head eye socket left
+      position: {x: -0, y: 0.0005559326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head teeth upper
+      parentName: head neck upper
+      position: {x: 0.0000007455237, y: 0.0001223775, z: -0.00032755532}
+      rotation: {x: 0.9847951, y: 0.00016911757, z: 0.0012826619, w: -0.1737151}
+      scale: {x: 0.99999994, y: 1.0000019, z: 1.0000007}
+    - name: head teeth upper_end
+      parentName: head teeth upper
+      position: {x: -0, y: 0.000957351, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head nostril left
+      parentName: head neck upper
+      position: {x: -0.00015491707, y: 0.00080414186, z: 0.0006497368}
+      rotation: {x: 0.8017562, y: -0.21291131, z: -0.1104317, w: 0.5474127}
+      scale: {x: 0.99999994, y: 1.0000023, z: 1.0000035}
+    - name: head nostril left_end
+      parentName: head nostril left
+      position: {x: -0, y: 0.00070256565, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head nostril right
+      parentName: head neck upper
+      position: {x: 0.00015403809, y: 0.0008038339, z: 0.0006503259}
+      rotation: {x: 0.8015073, y: 0.21364346, z: 0.11275889, w: 0.5470174}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000026}
+    - name: head nostril right_end
+      parentName: head nostril right
+      position: {x: -0, y: 0.00070301193, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused hen
+      parentName: head neck upper
+      position: {x: -0.0000009465031, y: -0.00040843643, z: 0.0002834378}
+      rotation: {x: 0.9952197, y: -0.00021896505, z: 0.0010922061, w: 0.097655155}
+      scale: {x: 0.99999917, y: 1.0000042, z: 1.0000006}
+    - name: unused hen_end
+      parentName: unused hen
+      position: {x: -0, y: 0.001458198, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair left 3
+      parentName: head neck upper
+      position: {x: -0.00035183117, y: 0.0009236304, z: -0.0016238445}
+      rotation: {x: 0.000000007674795, y: 0.88603806, z: 0.46361136, w: 0.0010743939}
+      scale: {x: 1.0000014, y: 1.0000007, z: 0.99999994}
+    - name: hair top front left 3
+      parentName: hair left 3
+      position: {x: -3.7252902e-11, y: 5.2154064e-10, z: 1.11758706e-10}
+      rotation: {x: -0.0000002681623, y: -0.000000029162035, z: 0.000000046576258,
+        w: 1}
+      scale: {x: 1.0000044, y: 1.0000033, z: 1.0000036}
+    - name: unused hair top front left 3 copy
+      parentName: hair top front left 3
+      position: {x: 0.00036877985, y: 0.000051680057, z: -0.00022317919}
+      rotation: {x: -0.00000024302835, y: -0.38728538, z: 0.663687, w: -0.63994503}
+      scale: {x: 1.0000086, y: 1.0000042, z: 0.9999999}
+    - name: unused hair top front left 3 copy_end
+      parentName: unused hair top front left 3 copy
+      position: {x: -0, y: 0.00043414126, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair left 2
+      parentName: head neck upper
+      position: {x: -0.0003375084, y: 0.0013724476, z: -0.0012542325}
+      rotation: {x: 0.000000013938557, y: 0.8860376, z: 0.46361208, w: 0.0010743572}
+      scale: {x: 1.0000018, y: 1.0000008, z: 1.0000004}
+    - name: hair top front left 2
+      parentName: hair left 2
+      position: {x: 7.4505804e-11, y: 1.4901161e-10, z: 0.0000000010058283}
+      rotation: {x: 0.0000006854611, y: -0.000000058382284, z: -0.00000002335134,
+        w: 1}
+      scale: {x: 1.0000057, y: 1.0000051, z: 1.0000051}
+    - name: unused hair top front left 2 copy
+      parentName: hair top front left 2
+      position: {x: 0.0003937689, y: 0.000031008123, z: -0.00017007034}
+      rotation: {x: -0.00000026350048, y: -0.2903011, z: 0.68113714, w: -0.672144}
+      scale: {x: 1.0000057, y: 1.0000026, z: 0.9999996}
+    - name: unused hair top front left 2 copy_end
+      parentName: unused hair top front left 2 copy
+      position: {x: -0, y: 0.0004300453, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair left 1
+      parentName: head neck upper
+      position: {x: -0.00030527188, y: 0.0016639325, z: -0.0008666469}
+      rotation: {x: -0.0000000010029647, y: 0.8860377, z: 0.4636119, w: 0.0010743785}
+      scale: {x: 1.0000006, y: 1.0000005, z: 0.99999934}
+    - name: hair top front left 1
+      parentName: hair left 1
+      position: {x: -3.7252902e-11, y: -1.4901161e-10, z: 3.72529e-10}
+      rotation: {x: 0.00000047678856, y: -0.00000003480818, z: -0.000000069833646,
+        w: 1}
+      scale: {x: 1.0000027, y: 1.0000029, z: 1.0000036}
+    - name: unused hair top front left 1 copy
+      parentName: hair top front left 1
+      position: {x: 0.00043213973, y: -0.000008760244, z: -0.00017966949}
+      rotation: {x: -0.000000063870445, y: -0.26891193, z: 0.71369296, w: -0.64678335}
+      scale: {x: 1.0000031, y: 0.9999988, z: 0.99999475}
+    - name: unused hair top front left 1 copy_end
+      parentName: unused hair top front left 1 copy
+      position: {x: -0, y: 0.00046808386, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair front left
+      parentName: head neck upper
+      position: {x: -0.00037405, y: 0.0018449997, z: -0.00040395086}
+      rotation: {x: 0.00000004881776, y: 0.886038, z: 0.46361154, w: 0.0010743723}
+      scale: {x: 1.0000054, y: 1.0000035, z: 1.0000024}
+    - name: hair top front left
+      parentName: hair front left
+      position: {x: 1.862645e-10, y: 0, z: 5.9604643e-10}
+      rotation: {x: -1.10822435e-10, y: -0, z: -0.00000011647961, w: 1}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000017}
+    - name: unused hair top front left copy
+      parentName: hair top front left
+      position: {x: 0.00019365466, y: 0.00015445292, z: -0.00054110994}
+      rotation: {x: -0.00000006471182, y: -0.74717134, z: 0.608467, w: -0.26740056}
+      scale: {x: 1.0000005, y: 0.99999905, z: 1.0000036}
+    - name: unused hair top front left copy_end
+      parentName: unused hair top front left copy
+      position: {x: -0, y: 0.0005951115, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair right 3
+      parentName: head neck upper
+      position: {x: 0.0003598421, y: 0.00092292036, z: -0.0016224892}
+      rotation: {x: 0.000000007674795, y: 0.88603806, z: 0.46361136, w: 0.0010743939}
+      scale: {x: 1.0000014, y: 1.0000007, z: 0.99999994}
+    - name: hair top front right 3
+      parentName: hair right 3
+      position: {x: -1.3969838e-10, y: 3.72529e-10, z: 2.7939676e-10}
+      rotation: {x: -0.0000002681623, y: -0.000000029162035, z: 0.000000046576258,
+        w: 1}
+      scale: {x: 1.0000044, y: 1.0000033, z: 1.0000036}
+    - name: unused hair top front right 3 copy
+      parentName: hair top front right 3
+      position: {x: -0.0003687801, y: 0.00005167946, z: -0.00022317999}
+      rotation: {x: 0.00000027916795, y: -0.38728458, z: 0.66368747, w: 0.63994503}
+      scale: {x: 1.0000091, y: 1.0000052, z: 1.0000011}
+    - name: unused hair top front right 3 copy_end
+      parentName: unused hair top front right 3 copy
+      position: {x: -0, y: 0.00043414172, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair right 2
+      parentName: head neck upper
+      position: {x: 0.00034500746, y: 0.0013717674, z: -0.0012529327}
+      rotation: {x: -8.8655117e-10, y: 0.88603777, z: 0.46361172, w: 0.0010743784}
+      scale: {x: 1.0000004, y: 0.9999996, z: 0.9999991}
+    - name: hair top front right 2
+      parentName: hair right 2
+      position: {x: 3.1664968e-10, y: 2.2351741e-10, z: 0.0000000010058283}
+      rotation: {x: 0.00000026818856, y: -0.000000023341272, z: -0.0000000464791,
+        w: 1}
+      scale: {x: 1.000002, y: 1.0000015, z: 1.0000018}
+    - name: unused hair top front right 2 copy
+      parentName: hair top front right 2
+      position: {x: -0.00039376956, y: 0.000031007974, z: -0.0001700699}
+      rotation: {x: 0.00000004692678, y: -0.2903007, z: 0.68113756, w: 0.6721437}
+      scale: {x: 1.000005, y: 1.0000014, z: 0.9999991}
+    - name: unused hair top front right 2 copy_end
+      parentName: unused hair top front right 2 copy
+      position: {x: -0, y: 0.00043004568, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair right 1
+      parentName: head neck upper
+      position: {x: 0.00031187618, y: 0.0016633167, z: -0.000865472}
+      rotation: {x: 0.000000007674795, y: 0.88603806, z: 0.46361136, w: 0.0010743939}
+      scale: {x: 1.0000014, y: 1.0000007, z: 0.99999994}
+    - name: hair top front right 1
+      parentName: hair right 1
+      position: {x: 1.7229468e-10, y: 2.9802322e-10, z: 0.0000000010430813}
+      rotation: {x: -0.0000002681623, y: -0.000000029162035, z: 0.000000046576258,
+        w: 1}
+      scale: {x: 1.0000044, y: 1.0000033, z: 1.0000036}
+    - name: unused hair top front right 1 copy
+      parentName: hair top front right 1
+      position: {x: -0.00043214008, y: -0.000008760169, z: -0.00017967078}
+      rotation: {x: 0.00000016526505, y: -0.26891166, z: 0.7136928, w: 0.6467838}
+      scale: {x: 1.0000068, y: 1.0000054, z: 1.0000011}
+    - name: unused hair top front right 1 copy_end
+      parentName: unused hair top front right 1 copy
+      position: {x: -0, y: 0.00046808473, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair front right
+      parentName: head neck upper
+      position: {x: 0.0003497447, y: 0.0018222716, z: -0.00040995635}
+      rotation: {x: 0.00000004881776, y: 0.886038, z: 0.46361154, w: 0.0010743723}
+      scale: {x: 1.0000054, y: 1.0000035, z: 1.0000024}
+    - name: hair top front right
+      parentName: hair front right
+      position: {x: 2.0489097e-10, y: -7.4505804e-11, z: 0.0000000013411044}
+      rotation: {x: -1.10822435e-10, y: -0, z: -0.00000011647961, w: 1}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000017}
+    - name: unused hair top front right copy
+      parentName: hair top front right
+      position: {x: -0.00038759143, y: -0.00013824194, z: -0.000370889}
+      rotation: {x: 0.00000024409655, y: -0.4235044, z: 0.7904246, w: 0.44257554}
+      scale: {x: 1.0000026, y: 1.0000048, z: 0.99999434}
+    - name: unused hair top front right copy_end
+      parentName: unused hair top front right copy
+      position: {x: -0, y: 0.0005539831, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm right shoulder 1
+      parentName: spine upper
+      position: {x: 0.000063028965, y: 0.0010360294, z: -2.4214386e-10}
+      rotation: {x: 0.63208514, y: 0.48223805, z: 0.4822381, w: -0.36791486}
+      scale: {x: 0.9999995, y: 1.0000014, z: 1.0000024}
+    - name: arm right shoulder 1.5
+      parentName: arm right shoulder 1
+      position: {x: -6.3329936e-10, y: 0.0019431043, z: -7.8231094e-10}
+      rotation: {x: -0.37895754, y: -0.39337006, z: -0.06618972, w: -0.83502704}
+      scale: {x: 1.0000043, y: 0.99999887, z: 1.0000031}
+    - name: unused arm right shoulder root
+      parentName: arm right shoulder 1.5
+      position: {x: -5.587935e-10, y: 0.0010366247, z: -2.9802322e-10}
+      rotation: {x: -0.37382284, y: -0.16071646, z: 0.25198752, w: 0.8780256}
+      scale: {x: 1.0000013, y: 0.9999973, z: 0.99999875}
+    - name: unused rarmeff
+      parentName: unused arm right shoulder root
+      position: {x: 0.0036284947, y: 0.0038274159, z: 0.000000012516975}
+      rotation: {x: -0.0000031292434, y: -0.0000016391275, z: 0.56521124, w: -0.8249463}
+      scale: {x: 1.000004, y: 0.9999979, z: 1.0000007}
+    - name: unused rarmeff_end
+      parentName: unused rarmeff
+      position: {x: -0, y: 0.0038909905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rarmup
+      parentName: unused arm right shoulder root
+      position: {x: -0.0036285801, y: 0.003439972, z: 0.0000000040248778}
+      rotation: {x: 0.00000075995905, y: -0.00000019371505, z: 0.6041545, w: 0.79686725}
+      scale: {x: 0.9999978, y: 1.0000031, z: 1.0000019}
+    - name: unused rarmup_end
+      parentName: unused rarmup
+      position: {x: -0, y: 0.0037685372, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rpunch_arm1
+      parentName: unused arm right shoulder root
+      position: {x: 0.000000084489585, y: 0.00000007025897, z: -0.000000020414591}
+      rotation: {x: 0.6496148, y: 0.2792862, z: 0.27928886, w: 0.6496134}
+      scale: {x: 0.99999535, y: 1.0000007, z: 1.0000042}
+    - name: unused rpunch_arm2
+      parentName: unused rpunch_arm1
+      position: {x: -2.6077032e-10, y: 0.0026369998, z: 1.11758706e-10}
+      rotation: {x: -0, y: -0.0000017583366, z: -0.0000017881389, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000008}
+    - name: unused rpunch_arm3
+      parentName: unused rpunch_arm2
+      position: {x: -3.72529e-10, y: 0.0026370012, z: 3.7252902e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000005}
+    - name: unused rpunch_arm3_end
+      parentName: unused rpunch_arm3
+      position: {x: -0, y: 0.002637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm right shoulder 2
+      parentName: arm right shoulder 1.5
+      position: {x: -5.587935e-10, y: 0.0010366247, z: -2.9802322e-10}
+      rotation: {x: -0.32282826, y: -0.2136663, z: 0.08749942, w: 0.917863}
+      scale: {x: 1.0000043, y: 0.9999952, z: 0.99999905}
+    - name: arm right shoulder adj 1
+      parentName: arm right shoulder 2
+      position: {x: 0.0000000035762786, y: 0.000000006519258, z: -0.000000001117587}
+      rotation: {x: -0.038915046, y: -0.0000002775341, z: 0.99924254, w: -0.00000018626449}
+      scale: {x: 1.0000018, y: 0.9999995, z: 0.99999875}
+    - name: arm right shoulder adj 1_end
+      parentName: arm right shoulder adj 1
+      position: {x: -0, y: 0.0022179254, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm right elbow
+      parentName: arm right shoulder 2
+      position: {x: 0.0010074094, y: 0.0024361599, z: -0.00006346427}
+      rotation: {x: -0.011374021, y: -0.01608748, z: -0.19447988, w: 0.98070866}
+      scale: {x: 1.0000052, y: 0.99999917, z: 1.000002}
+    - name: arm right roll 1
+      parentName: arm right elbow
+      position: {x: -0.000000001117587, y: 0.0008790074, z: -5.9604643e-10}
+      rotation: {x: 0.000000048428756, y: -0.000000087544294, z: 0.00000025701584,
+        w: -1}
+      scale: {x: 1, y: 1.0000006, z: 1.0000011}
+    - name: arm right roll 2
+      parentName: arm right roll 1
+      position: {x: -1.11758706e-10, y: 0.0008790013, z: -4.842877e-10}
+      rotation: {x: -0, y: -0, z: -4.2396608e-15, w: -1}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1.0000001}
+    - name: arm right roll 2_end
+      parentName: arm right roll 2
+      position: {x: -0, y: 0.000879001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm right wrist root
+      parentName: arm right elbow
+      position: {x: -0.0000000028125942, y: 0.002637008, z: -4.656613e-10}
+      rotation: {x: 0.081870936, y: 0.09777784, z: 0.007999922, w: 0.9918028}
+      scale: {x: 0.99999756, y: 1.000003, z: 1.0000017}
+    - name: arm right wrist
+      parentName: arm right wrist root
+      position: {x: 3.9115547e-10, y: 0.000078150886, z: 7.4505804e-11}
+      rotation: {x: 0.00000004470348, y: -0.0000000372529, z: 0.000000008381902, w: 1}
+      scale: {x: 0.9999988, y: 0.99999815, z: 0.999998}
+    - name: unused arm right finger 2
+      parentName: arm right wrist
+      position: {x: 0.00018297836, y: -0.00004937172, z: 0.0000030519814}
+      rotation: {x: 0.0676609, y: 0.08645303, z: 0.10284629, w: -0.9886205}
+      scale: {x: 1.0000055, y: 0.9999977, z: 1.0000012}
+    - name: unused arm right finger 2a
+      parentName: unused arm right finger 2
+      position: {x: 1.9557773e-10, y: 0.0014062909, z: -2.0489097e-10}
+      rotation: {x: -0.02033092, y: -0.020405471, z: 0.09369306, w: 0.9951844}
+      scale: {x: 0.9999972, y: 1.0000061, z: 1.000002}
+    - name: unused arm right finger 2b
+      parentName: unused arm right finger 2a
+      position: {x: 3.1664968e-10, y: 0.000672289, z: 4.0978193e-10}
+      rotation: {x: -0.00037400407, y: -0.00025185, z: -0.00039103164, w: -0.9999999}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000017}
+    - name: unused arm right finger 2c
+      parentName: unused arm right finger 2b
+      position: {x: 3.8184225e-10, y: 0.0004281108, z: -0.0000000012293457}
+      rotation: {x: -0.000000035448444, y: -0.00000014159005, z: -0.00000013712629,
+        w: 1}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.000001}
+    - name: unused arm right finger 2c_end
+      parentName: unused arm right finger 2c
+      position: {x: -0, y: 0.0004281104, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm right finger 3
+      parentName: arm right wrist
+      position: {x: -0.00007202184, y: -0.000042027532, z: -0.00004938101}
+      rotation: {x: -0.065843225, y: -0.07296271, z: -0.042893372, w: 0.9942341}
+      scale: {x: 1.0000042, y: 1, z: 1.0000013}
+    - name: arm right finger 3a
+      parentName: unused arm right finger 3
+      position: {x: -2.6542693e-10, y: 0.0013904818, z: -2.4214386e-10}
+      rotation: {x: 0.0015602248, y: -0.000000014901147, z: -0.0017295955, w: 0.99999726}
+      scale: {x: 1, y: 1.0000025, z: 1.0000002}
+    - name: unused arm right finger 3b
+      parentName: arm right finger 3a
+      position: {x: -0.00004770806, y: 0.0007319783, z: -0.000043035372}
+      rotation: {x: -0.028003871, y: -0.028186813, z: 0.033597656, w: 0.9986453}
+      scale: {x: 0.9999995, y: 1.0000017, z: 1.0000013}
+    - name: unused arm right finger 3c
+      parentName: unused arm right finger 3b
+      position: {x: 1.11758706e-10, y: 0.00045203874, z: 7.4505804e-11}
+      rotation: {x: 0.000017866483, y: 0.000000054016684, z: -0.0000000335276, w: 1}
+      scale: {x: 0.99999934, y: 1.0000005, z: 0.99999994}
+    - name: unused arm right finger 3c_end
+      parentName: unused arm right finger 3c
+      position: {x: -0, y: 0.00045203927, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm right finger 45
+      parentName: arm right wrist
+      position: {x: -0.00045272923, y: -0.00003755402, z: -0.00012627424}
+      rotation: {x: -0.089848764, y: -0.0776904, z: 0.05346276, w: 0.99148035}
+      scale: {x: 1.0000015, y: 1.0000032, z: 1.0000029}
+    - name: unused arm right finger 5a
+      parentName: unused arm right finger 45
+      position: {x: -0.0001932618, y: 0.0013629296, z: -0.000014141462}
+      rotation: {x: 0.013991059, y: 0.013928712, z: 0.063692845, w: -0.99777424}
+      scale: {x: 0.9999998, y: 0.99999833, z: 0.9999984}
+    - name: unused arm right finger 5b
+      parentName: unused arm right finger 5a
+      position: {x: 1.1641532e-10, y: 0.0006443881, z: -3.72529e-10}
+      rotation: {x: -0.0005772121, y: -0.00044383467, z: 0.000083160616, w: -0.99999976}
+      scale: {x: 0.99999946, y: 1.0000012, z: 1.000001}
+    - name: unused arm right finger 5c
+      parentName: unused arm right finger 5b
+      position: {x: -9.778887e-11, y: 0.00038033037, z: 8.1956386e-10}
+      rotation: {x: 0.00000009039646, y: -0.000000025989712, z: 0.000000074134846,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000024}
+    - name: unused arm right finger 5c_end
+      parentName: unused arm right finger 5c
+      position: {x: -0, y: 0.00038033017, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm right finger 4a
+      parentName: unused arm right finger 45
+      position: {x: 0.00019326275, y: 0.0013432556, z: 0.000014141202}
+      rotation: {x: 0.013774806, y: 0.013828465, z: 0.06402343, w: -0.99775755}
+      scale: {x: 1.0000002, y: 0.9999986, z: 0.99999857}
+    - name: unused arm right finger 4b
+      parentName: unused arm right finger 4a
+      position: {x: 2.3283064e-10, y: 0.0006714235, z: 2.2351741e-10}
+      rotation: {x: -0.00025208286, y: -0.00021244671, z: -0.00006951714, w: -1}
+      scale: {x: 1.0000018, y: 1.0000025, z: 1.0000036}
+    - name: unused arm right finger 4c
+      parentName: unused arm right finger 4b
+      position: {x: 7.543713e-10, y: 0.00042539058, z: -8.9406965e-10}
+      rotation: {x: -0.00000005215404, y: 0.0000000111904175, z: 0.00000005980966,
+        w: 1}
+      scale: {x: 1.0000023, y: 1.0000004, z: 1.0000004}
+    - name: unused arm right finger 4c_end
+      parentName: unused arm right finger 4c
+      position: {x: -0, y: 0.0004253901, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm right finger 1
+      parentName: arm right wrist
+      position: {x: -0.00014336451, y: -0.00015105013, z: -0.000041507275}
+      rotation: {x: 0.053986575, y: 0.7723768, z: 0.0041735917, w: -0.63285244}
+      scale: {x: 1.0000002, y: 0.9999985, z: 1.0000095}
+    - name: arm right finger 1a
+      parentName: unused arm right finger 1
+      position: {x: -1.7695129e-10, y: 0.0006132863, z: -5.5879353e-11}
+      rotation: {x: 0.026338601, y: 0.5160186, z: -0.015638042, w: 0.85602945}
+      scale: {x: 0.99999064, y: 0.9999991, z: 1.0000064}
+    - name: arm right finger 1b
+      parentName: arm right finger 1a
+      position: {x: -8.754432e-10, y: 0.0009786644, z: -9.313225e-11}
+      rotation: {x: -0.27623597, y: 0.0000005066393, z: -0.18985604, w: 0.942151}
+      scale: {x: 1.0000004, y: 1.0000012, z: 0.9999994}
+    - name: unused arm right finger 1c
+      parentName: arm right finger 1b
+      position: {x: -0.00022125257, y: 0.00043285234, z: 0.00032191433}
+      rotation: {x: -0.421881, y: -0.14908895, z: -0.8535915, w: -0.26677835}
+      scale: {x: 1.0000032, y: 0.9999934, z: 1.000004}
+    - name: unused arm right finger 1c_end
+      parentName: unused arm right finger 1c
+      position: {x: -0, y: 0.00067118695, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rhn
+      parentName: arm right wrist
+      position: {x: 0.00000005149748, y: -0.00007683344, z: -0.0000002569705}
+      rotation: {x: 0.19609217, y: 0.0008457733, z: -0.98058516, w: -0.0000013135805}
+      scale: {x: 1.0000036, y: 1.0000019, z: 1.0000001}
+    - name: unused rhn_end
+      parentName: unused rhn
+      position: {x: -0, y: 0.00015498485, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm right elbow adj
+      parentName: arm right shoulder 2
+      position: {x: 0.0010074129, y: 0.0024361662, z: -0.00006346419}
+      rotation: {x: 0.11307879, y: 0.09173215, z: 0.6177013, w: -0.77281535}
+      scale: {x: 1.000002, y: 1.0000007, z: 1.0000024}
+    - name: arm right elbow adj_end
+      parentName: arm right elbow adj
+      position: {x: -0, y: 0.0010327313, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sleeve right 1
+      parentName: arm right shoulder 2
+      position: {x: -0.00048752115, y: 0.0021154988, z: 0.00010686368}
+      rotation: {x: -0.0000003874301, y: 0.021647723, z: 0.8309907, w: -0.55586505}
+      scale: {x: 0.99999756, y: 1.0000023, z: 0.9999999}
+    - name: sleeve right 3
+      parentName: sleeve right 1
+      position: {x: 4.4703483e-10, y: 4.4703483e-10, z: 5.9604643e-10}
+      rotation: {x: -0.00000023628245, y: -0.16016766, z: -0.7785951, w: 0.60674214}
+      scale: {x: 1.0000045, y: 0.99999493, z: 1.0000048}
+    - name: sleeve right 5
+      parentName: sleeve right 3
+      position: {x: -4.4703483e-10, y: 0.00061416964, z: -2.2351741e-10}
+      rotation: {x: 0.0000000074505646, y: -0.000000007450579, z: -0.000000037844806,
+        w: 1}
+      scale: {x: 0.99999976, y: 0.9999993, z: 1.0000014}
+    - name: sleeve right 5_end
+      parentName: sleeve right 5
+      position: {x: -0, y: 0.000614168, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sleeve right 2
+      parentName: arm right shoulder 2
+      position: {x: -0.0005198888, y: 0.00210214, z: -0.000043404623}
+      rotation: {x: -0.0000003874301, y: 0.021647723, z: 0.8309907, w: -0.55586505}
+      scale: {x: 0.99999756, y: 1.0000023, z: 0.9999999}
+    - name: sleeve right 4
+      parentName: sleeve right 2
+      position: {x: 0.0000000014156103, y: 2.9802322e-10, z: 2.9802322e-10}
+      rotation: {x: -0.000000006360898, y: -0.24200535, z: 0.76898396, w: -0.5916901}
+      scale: {x: 1.0000095, y: 1.0000054, z: 0.9999949}
+    - name: sleeve right 6
+      parentName: sleeve right 4
+      position: {x: -5.9604643e-10, y: 0.0006465672, z: -6.3329936e-10}
+      rotation: {x: -0.00000014125148, y: 0.000000044703473, z: 0.000000087867576,
+        w: 1}
+      scale: {x: 0.9999983, y: 0.9999985, z: 1.0000012}
+    - name: sleeve right 6_end
+      parentName: sleeve right 6
+      position: {x: -0, y: 0.0006465668, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm right shoulder adj 2
+      parentName: arm right shoulder 2
+      position: {x: 0.0000000035762786, y: 0.000000006519258, z: -0.000000001117587}
+      rotation: {x: -0.038915046, y: -0.0000002775341, z: 0.99924254, w: -0.00000018626449}
+      scale: {x: 1.0000018, y: 0.9999995, z: 0.99999875}
+    - name: arm right shoulder adj 2_end
+      parentName: arm right shoulder adj 2
+      position: {x: -0, y: 0.0022179254, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm left shoulder 1
+      parentName: spine upper
+      position: {x: -0.00006302908, y: 0.0010360294, z: -1.4901161e-10}
+      rotation: {x: 0.63208586, y: -0.4822378, z: -0.48223796, w: -0.3679142}
+      scale: {x: 1.0000001, y: 1.0000027, z: 1.0000035}
+    - name: arm left shoulder 1.5
+      parentName: arm left shoulder 1
+      position: {x: -7.4505804e-11, y: 0.0019430955, z: 7.4505804e-11}
+      rotation: {x: -0.37913236, y: 0.3931424, z: 0.06488387, w: -0.83515745}
+      scale: {x: 1.0000038, y: 0.99999803, z: 1.0000027}
+    - name: unused arm left shoulder root
+      parentName: arm left shoulder 1.5
+      position: {x: -3.72529e-10, y: 0.0010367164, z: 2.2351741e-10}
+      rotation: {x: -0.3737802, y: 0.16069274, z: -0.25203592, w: 0.8780343}
+      scale: {x: 1.0000018, y: 0.9999991, z: 0.9999991}
+    - name: unused larmeff
+      parentName: unused arm left shoulder root
+      position: {x: -0.003628493, y: 0.0038272624, z: 0.000000013411045}
+      rotation: {x: 0.0000017285342, y: 0.00000034272662, z: 0.56522226, w: 0.8249388}
+      scale: {x: 1.0000042, y: 0.99999964, z: 1.0000006}
+    - name: unused larmeff_end
+      parentName: unused larmeff
+      position: {x: -0, y: 0.0038909481, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused larmup
+      parentName: unused arm left shoulder root
+      position: {x: 0.0036284854, y: 0.0034400728, z: -0.000000016256235}
+      rotation: {x: -0.0000026524067, y: -0.00000008940697, z: -0.60413706, w: 0.7968804}
+      scale: {x: 0.9999983, y: 1.0000032, z: 1.0000002}
+    - name: unused larmup_end
+      parentName: unused larmup
+      position: {x: -0, y: 0.0037684836, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused lpunch_arm1
+      parentName: unused arm left shoulder root
+      position: {x: 0.000000009536743, y: -0.0000000026077032, z: -2.9802322e-10}
+      rotation: {x: 0.6496161, y: -0.27927917, z: -0.27928177, w: 0.64961815}
+      scale: {x: 0.99999666, y: 0.99999905, z: 1.0000031}
+    - name: unused lpunch_arm2
+      parentName: unused lpunch_arm1
+      position: {x: 1.4901161e-10, y: 0.002637, z: -0.0000000018626451}
+      rotation: {x: -0.000000029802315, y: 0.000001892447, z: 0.00000180304, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: unused lpunch_arm3
+      parentName: unused lpunch_arm2
+      position: {x: -4.4703483e-10, y: 0.0026370012, z: -3.72529e-10}
+      rotation: {x: 0.000000059604602, y: -0.000000029802653, z: -0.000000014901328,
+        w: 1}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1.0000004}
+    - name: unused lpunch_arm3_end
+      parentName: unused lpunch_arm3
+      position: {x: -0, y: 0.002637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm left shoulder 2
+      parentName: arm left shoulder 1.5
+      position: {x: -3.72529e-10, y: 0.0010367164, z: 2.2351741e-10}
+      rotation: {x: -0.32308707, y: 0.21325175, z: -0.0886328, w: 0.9177596}
+      scale: {x: 1.0000042, y: 0.9999945, z: 0.9999969}
+    - name: arm left shoulder adj 1
+      parentName: arm left shoulder 2
+      position: {x: 0.000000006780028, y: -0.0000000057043508, z: 5.075708e-10}
+      rotation: {x: 0.038922414, y: 0.00000014342365, z: 0.9992423, w: -0.000000037252896}
+      scale: {x: 1.0000064, y: 1.0000036, z: 1.000002}
+    - name: arm left shoulder adj 1_end
+      parentName: arm left shoulder adj 1
+      position: {x: -0, y: 0.002220054, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm left elbow
+      parentName: arm left shoulder 2
+      position: {x: -0.0009973423, y: 0.0024402887, z: -0.00006385635}
+      rotation: {x: -0.01107406, y: 0.016165456, z: 0.19844231, w: 0.9799167}
+      scale: {x: 1.0000055, y: 1.0000008, z: 1.0000033}
+    - name: arm left wrist root
+      parentName: arm left elbow
+      position: {x: -0.0000000102072955, y: 0.002636993, z: -0.000000021588058}
+      rotation: {x: 0.08186488, y: -0.09846986, z: -0.008060135, w: 0.99173427}
+      scale: {x: 0.99999696, y: 1.0000027, z: 1.0000005}
+    - name: arm left wrist
+      parentName: arm left wrist root
+      position: {x: -3.72529e-10, y: 0.00007810145, z: 0}
+      rotation: {x: -0.00000017136331, y: 0.000000096857526, z: 0.00000017229463,
+        w: 1}
+      scale: {x: 1.0000013, y: 1.000001, z: 1.0000011}
+    - name: unused arm left finger 2
+      parentName: arm left wrist
+      position: {x: -0.00018297146, y: -0.00004936328, z: 0.0000033133663}
+      rotation: {x: -0.0676313, y: 0.087004036, z: 0.10291296, w: 0.9885673}
+      scale: {x: 1.0000052, y: 0.9999968, z: 1.0000026}
+    - name: unused arm left finger 2a
+      parentName: unused arm left finger 2
+      position: {x: -7.8231094e-10, y: 0.0014063002, z: 3.7252902e-11}
+      rotation: {x: -0.02038906, y: 0.020562427, z: -0.09368881, w: 0.99518037}
+      scale: {x: 0.999999, y: 1.0000049, z: 1.0000024}
+    - name: unused arm left finger 2b
+      parentName: unused arm left finger 2a
+      position: {x: -4.4703483e-10, y: 0.00067231606, z: 7.4505804e-11}
+      rotation: {x: 0.00025353945, y: -0.00025432176, z: -0.00039046846, w: 0.9999999}
+      scale: {x: 1.0000014, y: 1.000002, z: 1.0000033}
+    - name: unused arm left finger 2c
+      parentName: unused arm left finger 2b
+      position: {x: -8.1956386e-10, y: 0.00042805957, z: -4.0978193e-10}
+      rotation: {x: -0, y: -0, z: -1.3471884e-11, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999981}
+    - name: unused arm left finger 2c_end
+      parentName: unused arm left finger 2c
+      position: {x: -0, y: 0.0004280597, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm left finger 3
+      parentName: arm left wrist
+      position: {x: 0.00007195439, y: -0.000042025782, z: -0.00004947858}
+      rotation: {x: -0.06586246, y: 0.07346835, z: 0.04296375, w: 0.99419254}
+      scale: {x: 1.0000031, y: 0.99999845, z: 1.0000035}
+    - name: arm left finger 3a
+      parentName: unused arm left finger 3
+      position: {x: 4.656613e-10, y: 0.0013904475, z: -3.72529e-10}
+      rotation: {x: 0.0015679589, y: -0.000000104308064, z: 0.0017361593, w: 0.99999726}
+      scale: {x: 1.0000031, y: 1.0000018, z: 1.000004}
+    - name: unused arm left finger 3b
+      parentName: arm left finger 3a
+      position: {x: 0.00004769386, y: 0.00073203584, z: -0.000043072698}
+      rotation: {x: -0.028196037, y: 0.02837706, z: -0.033587325, w: 0.9986349}
+      scale: {x: 1.0000018, y: 1.0000018, z: 1.0000014}
+    - name: unused arm left finger 3c
+      parentName: unused arm left finger 3b
+      position: {x: 8.5681673e-10, y: 0.0004519694, z: 3.9115547e-10}
+      rotation: {x: -0.000000398606, y: -0.00000004470348, z: 0.00000013253883, w: 1}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000011}
+    - name: unused arm left finger 3c_end
+      parentName: unused arm left finger 3c
+      position: {x: -0, y: 0.0004519696, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm left finger 45
+      parentName: arm left wrist
+      position: {x: 0.00045254923, y: -0.000037517602, z: -0.00012692447}
+      rotation: {x: -0.08994533, y: 0.0782922, z: -0.05338408, w: 0.9914284}
+      scale: {x: 0.99999887, y: 1.0000007, z: 1.0000021}
+    - name: unused arm left finger 5a
+      parentName: unused arm left finger 45
+      position: {x: 0.00019326415, y: 0.0013628429, z: -0.000014175139}
+      rotation: {x: -0.0139510315, y: 0.014024673, z: 0.06369582, w: 0.99777335}
+      scale: {x: 1.0000049, y: 1.0000011, z: 1.0000036}
+    - name: unused arm left finger 5b
+      parentName: unused arm left finger 5a
+      position: {x: -3.352761e-10, y: 0.00064439594, z: 7.4505804e-11}
+      rotation: {x: 0.00044752465, y: -0.00044828455, z: 0.0000839747, w: 0.99999976}
+      scale: {x: 1.0000006, y: 1.000001, z: 0.99999994}
+    - name: unused arm left finger 5c
+      parentName: unused arm left finger 5b
+      position: {x: 7.0780515e-10, y: 0.0003803687, z: -1.11758706e-10}
+      rotation: {x: -5.8207654e-11, y: -0, z: -1.6086686e-11, w: 1}
+      scale: {x: 1.0000021, y: 1.0000032, z: 1.0000019}
+    - name: unused arm left finger 5c_end
+      parentName: unused arm left finger 5c
+      position: {x: -0, y: 0.00038036893, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm left finger 4a
+      parentName: unused arm left finger 45
+      position: {x: -0.00019326455, y: 0.0013432454, z: 0.0000141763685}
+      rotation: {x: -0.013828184, y: 0.013924923, z: 0.064027555, w: 0.99775517}
+      scale: {x: 1.0000032, y: 0.9999983, z: 1.0000033}
+    - name: unused arm left finger 4b
+      parentName: unused arm left finger 4a
+      position: {x: 4.0978193e-10, y: 0.00067136606, z: -3.72529e-10}
+      rotation: {x: 0.00023348816, y: -0.00023388863, z: -0.00006917617, w: 1}
+      scale: {x: 1.0000027, y: 1.0000033, z: 0.9999999}
+    - name: unused arm left finger 4c
+      parentName: unused arm left finger 4b
+      position: {x: 3.7252902e-11, y: 0.00042545077, z: -1.862645e-10}
+      rotation: {x: -0, y: -0, z: -3.1121772e-12, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 1.0000013}
+    - name: unused arm left finger 4c_end
+      parentName: unused arm left finger 4c
+      position: {x: -0, y: 0.00042545123, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused arm left finger 1
+      parentName: arm left wrist
+      position: {x: 0.00014330863, y: -0.00015100393, z: -0.00004169991}
+      rotation: {x: 0.053998463, y: -0.77695704, z: -0.0038723638, w: -0.6272216}
+      scale: {x: 1.0000048, y: 0.9999959, z: 1.0000082}
+    - name: arm left finger 1a
+      parentName: unused arm left finger 1
+      position: {x: 1.4901161e-10, y: 0.0006132536, z: 2.2351741e-10}
+      rotation: {x: -0.026191827, y: 0.5195055, z: -0.015865762, w: -0.8539183}
+      scale: {x: 0.99999744, y: 0.99999595, z: 1.000008}
+    - name: arm left finger 1b
+      parentName: arm left finger 1a
+      position: {x: 2.2351741e-10, y: 0.0009786739, z: -7.4505804e-11}
+      rotation: {x: -0.27715656, y: -0.00000029802305, z: 0.18850116, w: 0.9421526}
+      scale: {x: 1.0000015, y: 1.0000001, z: 1.0000005}
+    - name: unused arm left finger 1c
+      parentName: arm left finger 1b
+      position: {x: 0.0002196887, y: 0.00043288324, z: 0.00032300895}
+      rotation: {x: 0.4233213, y: -0.1499509, z: -0.8528706, w: 0.26631856}
+      scale: {x: 0.999998, y: 1.000006, z: 1}
+    - name: unused arm left finger 1c_end
+      parentName: unused arm left finger 1c
+      position: {x: -0, y: 0.00067118206, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused lhn
+      parentName: arm left wrist
+      position: {x: 0.00000019177794, y: -0.000049669554, z: -0.0000058152923}
+      rotation: {x: 0.21676342, y: -0.02203619, z: 0.975959, w: -0.0056633507}
+      scale: {x: 1.0000027, y: 1.0000013, z: 1.0000001}
+    - name: unused lhn_end
+      parentName: unused lhn
+      position: {x: -0, y: 0.00012790391, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm left roll 1
+      parentName: arm left elbow
+      position: {x: -3.7252902e-11, y: 0.00087899074, z: -6.7986544e-10}
+      rotation: {x: -0.0000065546474, y: 0.0000060042357, z: 0.0000028903737, w: 1}
+      scale: {x: 0.9999989, y: 0.9999998, z: 0.9999992}
+    - name: arm left roll 2
+      parentName: arm left roll 1
+      position: {x: -7.4505804e-11, y: 0.0008790002, z: -2.3283064e-10}
+      rotation: {x: -0, y: -0, z: 2.0008299e-14, w: 1}
+      scale: {x: 1.0000029, y: 1.0000027, z: 1.0000014}
+    - name: arm left roll 2_end
+      parentName: arm left roll 2
+      position: {x: -0, y: 0.0008790001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm left elbow adj
+      parentName: arm left shoulder 2
+      position: {x: -0.0009973346, y: 0.0024402835, z: -0.000063856314}
+      rotation: {x: -0.113110945, y: 0.091476046, z: 0.61611843, w: 0.7741035}
+      scale: {x: 1.0000054, y: 1.0000029, z: 1.000006}
+    - name: arm left elbow adj_end
+      parentName: arm left elbow adj
+      position: {x: -0, y: 0.0010233563, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sleeve left 1
+      parentName: arm left shoulder 2
+      position: {x: 0.0004824708, y: 0.0021165623, z: 0.00010706834}
+      rotation: {x: -0.000000059604638, y: 0.021612948, z: 0.8316616, w: 0.554862}
+      scale: {x: 1.0000006, y: 1.0000042, z: 1.0000008}
+    - name: sleeve left 3
+      parentName: sleeve left 1
+      position: {x: -3.5390257e-10, y: 7.4505804e-11, z: -7.636845e-10}
+      rotation: {x: 0.00000009326301, y: -0.15958713, z: -0.7788931, w: -0.60651255}
+      scale: {x: 1.0000015, y: 0.99999166, z: 1.0000033}
+    - name: sleeve left 5
+      parentName: sleeve left 3
+      position: {x: 5.7742e-10, y: 0.0006160828, z: 3.7252902e-11}
+      rotation: {x: -0.00000011993713, y: 0.00000011920926, z: 0.0000003129067, w: 1}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: sleeve left 5_end
+      parentName: sleeve left 5
+      position: {x: -0, y: 0.00061608275, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sleeve left 2
+      parentName: arm left shoulder 2
+      position: {x: 0.00051487144, y: 0.002103295, z: -0.000043212345}
+      rotation: {x: -0.000000059604638, y: 0.021612948, z: 0.8316616, w: 0.554862}
+      scale: {x: 1.0000006, y: 1.0000042, z: 1.0000008}
+    - name: sleeve left 4
+      parentName: sleeve left 2
+      position: {x: -8.381903e-11, y: 3.352761e-10, z: -9.778887e-11}
+      rotation: {x: 0.00000013820645, y: -0.24123944, z: 0.7692671, w: 0.59163475}
+      scale: {x: 1.0000052, y: 1.000001, z: 0.999989}
+    - name: sleeve left 6
+      parentName: sleeve left 4
+      position: {x: 2.2351741e-10, y: 0.00064837706, z: -4.656613e-10}
+      rotation: {x: 0.00000011963984, y: -0.00000013411042, z: 0.00000021215473, w: 1}
+      scale: {x: 1.000002, y: 1.0000042, z: 1.0000031}
+    - name: sleeve left 6_end
+      parentName: sleeve left 6
+      position: {x: -0, y: 0.0006483777, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm left shoulder adj 2
+      parentName: arm left shoulder 2
+      position: {x: 0.000000006780028, y: -0.0000000057043508, z: 5.075708e-10}
+      rotation: {x: 0.038922414, y: 0.00000014342365, z: 0.9992423, w: -0.000000037252896}
+      scale: {x: 1.0000064, y: 1.0000036, z: 1.000002}
+    - name: arm left shoulder adj 2_end
+      parentName: arm left shoulder adj 2
+      position: {x: -0, y: 0.002220054, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused leg right thigh root
+      parentName: root hips
+      position: {x: 0.001106301, y: -0.0008635197, z: -0.0000000037904826}
+      rotation: {x: 0.96783817, y: -0.00000021214446, z: -0.00000019143845, w: -0.25157362}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.000001}
+    - name: leg right thigh
+      parentName: unused leg right thigh root
+      position: {x: -8.1490726e-12, y: -3.7718564e-10, z: 1.8626451e-11}
+      rotation: {x: -0.25157362, y: 0.0000005575361, z: -0.0000007703984, w: 0.96783817}
+      scale: {x: 1.0000005, y: 1.000001, z: 0.99999905}
+    - name: leg right thigh twist
+      parentName: leg right thigh
+      position: {x: -0.0000000010733493, y: 5.587935e-10, z: -0.0000000020861626}
+      rotation: {x: -1, y: 0.00000022118873, z: -0.0000010128136, w: 0.0000004470356}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000004}
+    - name: leg right thigh twist_end
+      parentName: leg right thigh twist
+      position: {x: -0, y: 0.0044180024, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg right thigh adj
+      parentName: leg right thigh
+      position: {x: -0.0000000010733493, y: 5.587935e-10, z: -0.0000000020861626}
+      rotation: {x: -1, y: 0.00000022118873, z: -0.0000010128136, w: 0.0000004470356}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000004}
+    - name: leg right thigh adj_end
+      parentName: leg right thigh adj
+      position: {x: -0, y: 0.0044180024, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg right knee
+      parentName: leg right thigh
+      position: {x: -7.4505804e-11, y: 0.0044180015, z: -4.4703483e-10}
+      rotation: {x: 0.040746946, y: -0.006979001, z: 0.006979048, w: 0.9991208}
+      scale: {x: 1.0000005, y: 1.0000029, z: 1.0000002}
+    - name: leg right ankle
+      parentName: leg right knee
+      position: {x: 0.000060865954, y: 0.00453445, z: -0.00037091802}
+      rotation: {x: -0.528807, y: -0.004914576, z: 0.013033679, w: 0.84862787}
+      scale: {x: 1, y: 1.0000027, z: 1.0000029}
+    - name: leg right toes
+      parentName: leg right ankle
+      position: {x: 6.0535965e-11, y: 0.0018085901, z: -1.9557773e-10}
+      rotation: {x: -0, y: 0.00000002933665, z: 0.0000000018626445, w: 1}
+      scale: {x: 1.0000001, y: 1.0000024, z: 1.0000024}
+    - name: unused rfootthumb
+      parentName: leg right toes
+      position: {x: -0.00055186247, y: 0.0002406487, z: -0.00012139577}
+      rotation: {x: -0.9847701, y: 0.1689446, z: -0.024785805, w: 0.032730147}
+      scale: {x: 1.0000025, y: 1.0000011, z: 1.0000035}
+    - name: unused rfootthumb_end
+      parentName: unused rfootthumb
+      position: {x: -0, y: 0.0016666513, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rfootpinky
+      parentName: leg right toes
+      position: {x: 0.0009435946, y: 0.00012594553, z: -0.000112882815}
+      rotation: {x: -0.96282494, y: -0.2541608, z: 0.09127731, w: 0.00623993}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000017}
+    - name: unused rfootpinky_end
+      parentName: unused rfootpinky
+      position: {x: -0, y: 0.0019324606, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rfn
+      parentName: leg right toes
+      position: {x: -0.00003241154, y: 0.0006578336, z: 0.000018961178}
+      rotation: {x: -0.9997021, y: 0.014224283, z: 0.018162576, w: -0.007978533}
+      scale: {x: 1.0000002, y: 1.0000018, z: 1.0000015}
+    - name: unused rfn_end
+      parentName: unused rfn
+      position: {x: -0, y: 0.0011513685, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants right 2a
+      parentName: leg right knee
+      position: {x: -0.0009925212, y: 0.0017244951, z: 0.0002449976}
+      rotation: {x: -0.8140807, y: 0.35159272, z: -0.3696339, w: -0.27753535}
+      scale: {x: 1.0000007, y: 0.99999964, z: 0.9999993}
+    - name: unused pants right 2a copy
+      parentName: pants right 2a
+      position: {x: -1.3969838e-11, y: 7.0780515e-10, z: -7.4505804e-11}
+      rotation: {x: 0.82454777, y: -0.36260054, z: 0.36260095, w: -0.23908661}
+      scale: {x: 0.99999493, y: 0.999993, z: 1.0000108}
+    - name: pants right 2b
+      parentName: unused pants right 2a copy
+      position: {x: 2.9802322e-10, y: 0.0009999993, z: -7.4505804e-11}
+      rotation: {x: -0.000000014901159, y: 0.00000051409, z: -0.00000044703478, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 0.99999994}
+    - name: pants right 2c
+      parentName: pants right 2b
+      position: {x: -5.7742e-10, y: 0.0011710332, z: 2.9802322e-10}
+      rotation: {x: -0, y: -0, z: 7.660537e-15, w: 1}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000006}
+    - name: pants right 2c_end
+      parentName: pants right 2c
+      position: {x: -0, y: 0.001171034, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants right 1a
+      parentName: leg right knee
+      position: {x: 0.0009431455, y: 0.001954879, z: -0.00017326421}
+      rotation: {x: -0.69778395, y: -0.45720533, z: 0.506245, w: -0.21857917}
+      scale: {x: 1.0000005, y: 0.99999946, z: 1.0000006}
+    - name: unused pants right 1a copy
+      parentName: pants right 1a
+      position: {x: -2.2351741e-10, y: -9.313226e-10, z: 1.6298145e-10}
+      rotation: {x: 0.70650667, y: 0.48078507, z: -0.48092297, w: -0.19597748}
+      scale: {x: 0.9999998, y: 0.99999475, z: 1.0000101}
+    - name: pants right 1b
+      parentName: unused pants right 1a copy
+      position: {x: 5.587935e-10, y: 0.001100216, z: -5.9604643e-10}
+      rotation: {x: 0.00044563413, y: 0.0004017204, z: -0.0004017651, w: 0.99999976}
+      scale: {x: 1.000001, y: 0.9999998, z: 0.9999985}
+    - name: pants right 1c
+      parentName: pants right 1b
+      position: {x: 5.0291415e-10, y: 0.0011710332, z: 6.705522e-10}
+      rotation: {x: -0, y: -0, z: -2.6574298e-12, w: 1}
+      scale: {x: 1.0000007, y: 0.99999934, z: 0.99999976}
+    - name: pants right 1c_end
+      parentName: pants right 1c
+      position: {x: -0, y: 0.001171034, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants right 4a
+      parentName: leg right knee
+      position: {x: -0.000040029157, y: 0.0021909077, z: 0.001419215}
+      rotation: {x: -0.7762795, y: 0.014329062, z: -0.0042421944, w: -0.6302118}
+      scale: {x: 0.99999875, y: 1.000001, z: 1.0000013}
+    - name: unused pants right 4a copy
+      parentName: pants right 4a
+      position: {x: 1.6763806e-10, y: -2.2351741e-10, z: 7.4505804e-11}
+      rotation: {x: 0.8016731, y: -0.0135765765, z: 0.012779879, w: -0.59747183}
+      scale: {x: 0.9999998, y: 0.9999991, z: 1.0000037}
+    - name: pants right 4b
+      parentName: unused pants right 4a copy
+      position: {x: 8.8475643e-11, y: 0.0011617639, z: -1.862645e-10}
+      rotation: {x: 0.0005467235, y: 0.0004894928, z: -0.0004894937, w: 0.99999964}
+      scale: {x: 1.0000011, y: 1.0000035, z: 1.000004}
+    - name: pants right 4c
+      parentName: pants right 4b
+      position: {x: -3.4458936e-10, y: 0.0015434029, z: 0}
+      rotation: {x: -0, y: -0, z: 2.157207e-11, w: 1}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000002}
+    - name: pants right 4c_end
+      parentName: pants right 4c
+      position: {x: -0, y: 0.0015434031, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants right 3a
+      parentName: leg right knee
+      position: {x: 0.000028539002, y: 0.0020385957, z: -0.0011200315}
+      rotation: {x: -0.8221207, y: -0.08338257, z: 0.10244582, w: 0.5537777}
+      scale: {x: 0.9999992, y: 1.0000004, z: 1.0000011}
+    - name: unused pants right 3a copy
+      parentName: pants right 3a
+      position: {x: -1.4901161e-10, y: 4.377216e-10, z: -2.2351741e-10}
+      rotation: {x: 0.7986323, y: 0.09644509, z: -0.09713739, w: 0.5860454}
+      scale: {x: 1.0000002, y: 0.9999973, z: 1.0000057}
+    - name: pants right 3b
+      parentName: unused pants right 3a copy
+      position: {x: -2.9802322e-10, y: 0.0008612687, z: -3.352761e-10}
+      rotation: {x: 0.000569731, y: 0.00050321966, z: -0.00050329417, w: 0.99999964}
+      scale: {x: 0.9999998, y: 1.0000037, z: 1.0000038}
+    - name: pants right 3c
+      parentName: pants right 3b
+      position: {x: 2.2351741e-10, y: 0.0011710335, z: 2.9802322e-10}
+      rotation: {x: -0, y: 0.00000002235174, z: -0.000000014941007, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.99999994}
+    - name: pants right 3c_end
+      parentName: pants right 3c
+      position: {x: -0, y: 0.0011710341, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg right knee adj
+      parentName: leg right thigh
+      position: {x: -9.685754e-10, y: 0.004418005, z: -0.0000000019371509}
+      rotation: {x: -0.24986209, y: -0.19165915, z: 0.19165906, w: 0.92957115}
+      scale: {x: 1.0000008, y: 1.000003, z: 1.0000021}
+    - name: leg right knee adj_end
+      parentName: leg right knee adj
+      position: {x: -0, y: 0.000049999915, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rlegeff
+      parentName: unused leg right thigh root
+      position: {x: 0.000000011986121, y: 0.007832842, z: -0.0043671103}
+      rotation: {x: -0.3804098, y: 0.0000010108378, z: -0.0000014567045, w: 0.9248181}
+      scale: {x: 1.0000002, y: 1.0000061, z: 1.0000007}
+    - name: unused rlegeff_end
+      parentName: unused rlegeff
+      position: {x: -0, y: 0.0062066317, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused rlegup
+      parentName: unused leg right thigh root
+      position: {x: -0.000000012032688, y: 0.0024348262, z: 0.0043671103}
+      rotation: {x: -0.78121775, y: 0.00000089229195, z: -0.0000010311921, w: -0.62425864}
+      scale: {x: 1.0000002, y: 1.0000013, z: 0.99999934}
+    - name: unused rlegup_end
+      parentName: unused rlegup
+      position: {x: -0, y: 0.004477415, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused leg left thigh root
+      parentName: root hips
+      position: {x: -0.001106277, y: -0.0008635308, z: 0.0000000028684735}
+      rotation: {x: 0.9678381, y: -0.0000011298929, z: -0.0000011076096, w: -0.2515741}
+      scale: {x: 0.9999998, y: 0.9999994, z: 1.0000025}
+    - name: leg left thigh
+      parentName: unused leg left thigh root
+      position: {x: 3.958121e-11, y: -1.6763806e-10, z: -0.0000000010244549}
+      rotation: {x: -0.25080892, y: 0.0000004599996, z: 0.00000011464408, w: 0.9680367}
+      scale: {x: 1.0000006, y: 1.0000082, z: 1.0000033}
+    - name: leg left thigh twist
+      parentName: leg left thigh
+      position: {x: -9.685754e-10, y: 5.7742e-10, z: 8.8475643e-10}
+      rotation: {x: -1, y: 0.00000023578394, z: 0.000001868096, w: -0.00000029802266}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000011}
+    - name: leg left thigh twist_end
+      parentName: leg left thigh twist
+      position: {x: -0, y: 0.0044180057, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg left thigh adj
+      parentName: leg left thigh
+      position: {x: -9.685754e-10, y: 5.7742e-10, z: 8.8475643e-10}
+      rotation: {x: -1, y: 0.00000023578394, z: 0.000001868096, w: -0.00000029802266}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000011}
+    - name: leg left thigh adj_end
+      parentName: leg left thigh adj
+      position: {x: -0, y: 0.0044180057, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg left knee
+      parentName: leg left thigh
+      position: {x: -1.4901161e-10, y: 0.004418005, z: -7.4505804e-11}
+      rotation: {x: 0.039474156, y: -0.0125081325, z: 0.01252778, w: 0.9990638}
+      scale: {x: 1.0000001, y: 1.000003, z: 1.0000021}
+    - name: leg left ankle
+      parentName: leg left knee
+      position: {x: 0.00010903384, y: 0.004533253, z: -0.00037442514}
+      rotation: {x: -0.52896047, y: 0.031546276, z: -0.02038221, w: 0.847815}
+      scale: {x: 0.9999998, y: 0.99999636, z: 1.0000069}
+    - name: leg left toes
+      parentName: leg left ankle
+      position: {x: 4.2142345e-10, y: 0.0018083105, z: 3.4924594e-11}
+      rotation: {x: -0, y: -0.00000005401669, z: 0.0000000055879337, w: 1}
+      scale: {x: 0.9999988, y: 0.99999934, z: 0.9999982}
+    - name: unused lfootthumb
+      parentName: leg left toes
+      position: {x: 0.00055195135, y: 0.00024064704, z: -0.00012131605}
+      rotation: {x: -0.98476636, y: -0.16899088, z: 0.024603266, w: 0.032741215}
+      scale: {x: 1.0000023, y: 0.99999917, z: 1.0000024}
+    - name: unused lfootthumb_end
+      parentName: unused lfootthumb
+      position: {x: -0, y: 0.0016664149, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused lfootpinky
+      parentName: leg left toes
+      position: {x: -0.0009435085, y: 0.00012595496, z: -0.00011300383}
+      rotation: {x: -0.9628319, y: 0.25417992, z: -0.09114484, w: 0.0063099125}
+      scale: {x: 1.0000032, y: 0.9999999, z: 0.99999976}
+    - name: unused lfootpinky_end
+      parentName: unused lfootpinky
+      position: {x: -0, y: 0.0019321748, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused lfn
+      parentName: leg left toes
+      position: {x: 0.000030706065, y: 0.0006579256, z: 0.000018481618}
+      rotation: {x: -0.9997088, y: -0.013487297, z: -0.018440256, w: -0.0077824304}
+      scale: {x: 1, y: 1.0000017, z: 1.0000015}
+    - name: unused lfn_end
+      parentName: unused lfn
+      position: {x: -0, y: 0.0011509436, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants left 2a
+      parentName: leg left knee
+      position: {x: 0.0010494015, y: 0.001683349, z: 0.0002059444}
+      rotation: {x: -0.79920834, y: -0.352297, z: 0.40275756, w: -0.2737503}
+      scale: {x: 0.99999654, y: 1.0000002, z: 1.0000049}
+    - name: unused pants left 2a copy
+      parentName: pants left 2a
+      position: {x: -1.5832484e-10, y: 2.0023434e-10, z: -1.466833e-10}
+      rotation: {x: 0.810281, y: 0.37504128, z: -0.3744572, w: -0.25014132}
+      scale: {x: 1.0000182, y: 0.99998254, z: 1.0000024}
+    - name: pants left 2b
+      parentName: unused pants left 2a copy
+      position: {x: 1.862645e-10, y: 0.001, z: -9.313225e-11}
+      rotation: {x: -0.0016788087, y: -0.0000054836246, z: 0.00000542402, w: 0.9999986}
+      scale: {x: 0.99999976, y: 1.0000044, z: 1.0000035}
+    - name: pants left 2c
+      parentName: pants left 2b
+      position: {x: 1.5832484e-10, y: 0.001169906, z: 9.3132255e-12}
+      rotation: {x: -0, y: -1.00044355e-10, z: 0.000000059604552, w: 1}
+      scale: {x: 1.0000002, y: 1.0000038, z: 1.0000042}
+    - name: pants left 2c_end
+      parentName: pants left 2c
+      position: {x: -0, y: 0.0011699059, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants left 1a
+      parentName: leg left knee
+      position: {x: -0.0011107232, y: 0.0019979863, z: -0.00013284794}
+      rotation: {x: -0.67346424, y: 0.47520718, z: -0.49753287, w: -0.27034265}
+      scale: {x: 0.9999959, y: 1.0000006, z: 1.0000046}
+    - name: unused pants left 1a copy
+      parentName: pants left 1a
+      position: {x: 1.2107193e-10, y: 4.656613e-10, z: -4.6566128e-12}
+      rotation: {x: 0.6836974, y: -0.49014354, z: 0.48950922, w: -0.22956054}
+      scale: {x: 1.0000112, y: 0.99998885, z: 1.0000111}
+    - name: pants left 1b
+      parentName: unused pants left 1a copy
+      position: {x: 2.4214386e-10, y: 0.0011002152, z: 3.1664968e-10}
+      rotation: {x: -0.000719383, y: -0.00040665994, z: 0.00040510276, w: 0.99999964}
+      scale: {x: 0.9999996, y: 1.0000029, z: 1.0000021}
+    - name: pants left 1c
+      parentName: pants left 1b
+      position: {x: -1.4901161e-10, y: 0.0011710394, z: 3.1199304e-10}
+      rotation: {x: 0.000000014842946, y: -0.000000022322627, z: -0.00000002981109,
+        w: 1}
+      scale: {x: 0.9999999, y: 1.0000043, z: 1.0000049}
+    - name: pants left 1c_end
+      parentName: pants left 1c
+      position: {x: -0, y: 0.0011710398, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants left 4a
+      parentName: leg left knee
+      position: {x: -0.000059937116, y: 0.0021939941, z: 0.0014216948}
+      rotation: {x: -0.7756329, y: 0.022884892, z: -0.0045515695, w: -0.6307528}
+      scale: {x: 0.9999996, y: 0.9999968, z: 1.0000026}
+    - name: unused pants left 4a copy
+      parentName: pants left 4a
+      position: {x: 4.2840836e-10, y: -3.7951395e-10, z: 3.7252902e-11}
+      rotation: {x: 0.8014674, y: -0.02116645, z: 0.021889996, w: -0.5972628}
+      scale: {x: 1.0000008, y: 0.9999967, z: 1.0000057}
+    - name: pants left 4b
+      parentName: unused pants left 4a copy
+      position: {x: -1.11758706e-10, y: 0.0011617655, z: -1.4901161e-10}
+      rotation: {x: 0.00047233677, y: -0.0004935076, z: 0.00049233786, w: 0.99999964}
+      scale: {x: 1.0000007, y: 1.0000021, z: 1.0000021}
+    - name: pants left 4c
+      parentName: pants left 4b
+      position: {x: -1.4901161e-10, y: 0.0015385199, z: 3.352761e-10}
+      rotation: {x: -0, y: 0.000000022351731, z: -0.00000001306885, w: 1}
+      scale: {x: 0.99999946, y: 1.0000025, z: 1.0000031}
+    - name: pants left 4c_end
+      parentName: pants left 4c
+      position: {x: -0, y: 0.0015385201, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants left 3a
+      parentName: leg left knee
+      position: {x: 0.000012225621, y: 0.0020383296, z: -0.001120366}
+      rotation: {x: -0.82205296, y: -0.07673652, z: 0.104649365, w: 0.5544267}
+      scale: {x: 0.9999997, y: 1.0000055, z: 0.99999666}
+    - name: unused pants left 3a copy
+      parentName: pants left 3a
+      position: {x: 4.1909515e-10, y: 2.2351741e-10, z: -1.4901161e-10}
+      rotation: {x: 0.7989377, y: 0.09888456, z: -0.09793854, w: 0.5850886}
+      scale: {x: 1.0000062, y: 1.0000014, z: 1.0000064}
+    - name: pants left 3b
+      parentName: unused pants left 3a copy
+      position: {x: 5.5879353e-11, y: 0.00086127204, z: 2.7939677e-11}
+      rotation: {x: -0.0014554556, y: -0.00051990134, z: 0.0005177928, w: 0.9999987}
+      scale: {x: 0.9999997, y: 1.0000007, z: 1.0000007}
+    - name: pants left 3c
+      parentName: pants left 3b
+      position: {x: -2.6077032e-10, y: 0.0011739549, z: -1.8626451e-11}
+      rotation: {x: -0, y: 0.00000005593754, z: -0.000000022322574, w: 1}
+      scale: {x: 0.9999999, y: 1.0000014, z: 1.0000007}
+    - name: pants left 3c_end
+      parentName: pants left 3c
+      position: {x: -0, y: 0.0011739549, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg left knee adj
+      parentName: leg left thigh
+      position: {x: -8.1956386e-10, y: 0.0044180015, z: 0.0000000021234154}
+      rotation: {x: -0.941182, y: 0.11265534, z: -0.11283144, w: -0.29791656}
+      scale: {x: 0.99999994, y: 0.99999547, z: 1.0000046}
+    - name: leg left knee adj_end
+      parentName: leg left knee adj
+      position: {x: -0, y: 0.000049999766, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused llegeff
+      parentName: unused leg left thigh root
+      position: {x: 8.1956386e-10, y: 0.007832832, z: -0.0043671043}
+      rotation: {x: -0.38041005, y: 0.0000010035662, z: -0.000000482784, w: 0.9248179}
+      scale: {x: 1, y: 1.0000055, z: 1.0000013}
+    - name: unused llegeff_end
+      parentName: unused llegeff
+      position: {x: -0, y: 0.0062066237, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused llegup
+      parentName: unused leg left thigh root
+      position: {x: -8.9406965e-10, y: 0.00243483, z: 0.0043671015}
+      rotation: {x: -0.7812175, y: 0.0000009115431, z: 0.0000009726227, w: -0.62425894}
+      scale: {x: 1.0000005, y: 1.0000027, z: 1.000001}
+    - name: unused llegup_end
+      parentName: unused llegup
+      position: {x: -0, y: 0.004477411, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused wan
+      parentName: root hips
+      position: {x: -1.8895187e-11, y: -6.939654e-10, z: 2.5977985e-11}
+      rotation: {x: 1, y: -8.881784e-15, z: 0.00000008149077, w: 0}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000004}
+    - name: unused wan_end
+      parentName: unused wan
+      position: {x: -0, y: 0.0014577997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rose root
+      parentName: root hips
+      position: {x: -1.8895187e-11, y: -6.939654e-10, z: 2.5977985e-11}
+      rotation: {x: 1, y: -8.881784e-15, z: 0.00000008149077, w: 0}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000004}
+    - name: rose root_end
+      parentName: rose root
+      position: {x: -0, y: 0.0014577997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused heel
+      parentName: unused root hips fix 2
+      position: {x: 1.8735696e-10, y: 0.011055817, z: -0.0021431139}
+      rotation: {x: -0.106634736, y: -0.000000043462148, z: -0.0000000046611532, w: 0.99429834}
+      scale: {x: 1, y: 1.0000039, z: 1.000004}
+    - name: unused heel_end
+      parentName: unused heel
+      position: {x: -0, y: 0.010106475, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused tiptoe
+      parentName: unused root hips fix 2
+      position: {x: -1.8735707e-10, y: 0.011348675, z: 0.002143115}
+      rotation: {x: 0.10366368, y: -0.000000043475897, z: 0.0000000045312856, w: 0.9946124}
+      scale: {x: 1, y: 0.9999996, z: 1.0000004}
+    - name: unused tiptoe_end
+      parentName: unused tiptoe
+      position: {x: -0, y: 0.01039286, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused glove
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused glove_end
+      parentName: unused glove
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused cummerbund
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused cummerbund_end
+      parentName: unused cummerbund
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused pants
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused pants_end
+      parentName: unused pants
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused shoes
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused shoes_end
+      parentName: unused shoes
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused body_neku
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused body_neku_end
+      parentName: unused body_neku
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused body_sode
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused body_sode_end
+      parentName: unused body_sode
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused eye
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused eye_end
+      parentName: unused eye
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused body_frill
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused body_frill_end
+      parentName: unused body_frill
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused face
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused face_end
+      parentName: unused face
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused utooth_env1
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused utooth_env1_end
+      parentName: unused utooth_env1
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused tongue_env1
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused tongue_env1_end
+      parentName: unused tongue_env1
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused dtooth_env1
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused dtooth_env1_end
+      parentName: unused dtooth_env1
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused hair
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused hair_end
+      parentName: unused hair
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused body
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused body_end
+      parentName: unused body
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused gim0
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused gim0_end
+      parentName: unused gim0
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused gim1
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused gim1_end
+      parentName: unused gim1
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unused gim2
+      parentName: unused root hips fix 2
+      position: {x: 1.2767666e-17, y: 1.5887319e-10, z: -1.450973e-10}
+      rotation: {x: -1, y: -1.2434498e-14, z: -0.000000075497894, w: 0.00000008940697}
+      scale: {x: 1, y: 0.9999998, z: 0.99999964}
+    - name: unused gim2_end
+      parentName: unused gim2
+      position: {x: -0, y: 0.0011791837, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 24_-Rose.Rose_0.1_0_0.002
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_DDL_0.1_0_0.003
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_DDL_0.1_0_0.004
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_Head_0.1_0_0.002
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_Other_0.1_0_0.002
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_PantsOther_0.1_0_0.002
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_Pants_0.1_0_0.002
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 24_Socks_0.1_0_0.002
+      parentName: dudley(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

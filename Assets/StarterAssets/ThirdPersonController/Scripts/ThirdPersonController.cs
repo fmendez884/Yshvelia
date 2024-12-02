@@ -98,6 +98,7 @@ namespace StarterAssets
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
         private int _animIDPunch;
+        private int _animID5LP;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -187,6 +188,7 @@ namespace StarterAssets
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
             _animIDPunch = Animator.StringToHash("Punch");
+            _animID5LP = Animator.StringToHash("5LP");
         }
 
         private void GroundedCheck()
@@ -383,7 +385,7 @@ namespace StarterAssets
                 GroundedRadius);
         }
 
-        private void OnFootstep(AnimationEvent animationEvent)
+        private void OnFootstep(UnityEngine.AnimationEvent animationEvent)
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
@@ -395,7 +397,7 @@ namespace StarterAssets
             }
         }
 
-        private void OnLand(AnimationEvent animationEvent)
+        private void OnLand(UnityEngine.AnimationEvent animationEvent)
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
@@ -422,18 +424,31 @@ namespace StarterAssets
             // canMoveTrigger();
             // // _animator.SetBool(_animIDPunch, false);
 
+            // if (_input.punch)
+            // {
+            //     Debug.Log("Punch");
+                
+            //     if (_hasAnimator)
+            //         {
+            //             // _animator.SetBool(_animIDPunch, true);
+            //             _animator.SetTrigger(_animIDPunch);
+            //         }
+            // }
+            // _input.punch = false;
+            // // _animator.SetBool(_animIDPunch, false);
+
             if (_input.punch)
             {
-                Debug.Log("Punch");
+                Debug.Log("5LP");
                 
                 if (_hasAnimator)
                     {
                         // _animator.SetBool(_animIDPunch, true);
-                        _animator.SetTrigger(_animIDPunch);
+                        _animator.SetTrigger(_animID5LP);
                     }
             }
+
             _input.punch = false;
-            // _animator.SetBool(_animIDPunch, false);
         }
 
         private void canMoveTrigger()
