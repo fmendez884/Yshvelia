@@ -99,6 +99,13 @@ namespace StarterAssets
         private int _animIDMotionSpeed;
         private int _animIDPunch;
         private int _animID5LP;
+        private int _animID5MP;
+        private int _animID5LK;
+        private int _animID5MK;
+        private int _animID2LP;
+        private int _animID2HP;
+        private int _animID2LK;
+        private int _animID2HK;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -173,6 +180,7 @@ namespace StarterAssets
             }
 
             Punch();
+            CombatInput();
         }
 
         private void LateUpdate()
@@ -189,6 +197,13 @@ namespace StarterAssets
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
             _animIDPunch = Animator.StringToHash("Punch");
             _animID5LP = Animator.StringToHash("5LP");
+            _animID2LP = Animator.StringToHash("2LP");
+            _animID5LK = Animator.StringToHash("5LK");
+            _animID2LK = Animator.StringToHash("2LK");
+            _animID5MP = Animator.StringToHash("5MP");
+            _animID2HP = Animator.StringToHash("2HP");
+            _animID5MK = Animator.StringToHash("5MK");
+            _animID2HK = Animator.StringToHash("2HK");
         }
 
         private void GroundedCheck()
@@ -442,13 +457,137 @@ namespace StarterAssets
                 Debug.Log("5LP");
                 
                 if (_hasAnimator)
-                    {
-                        // _animator.SetBool(_animIDPunch, true);
-                        _animator.SetTrigger(_animID5LP);
-                    }
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID5LP);
+                }
             }
 
             _input.punch = false;
+        }
+
+        private void A_input()
+        {
+            if (_input.a)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID5LP);
+                }
+            }
+
+            _input.a = false;
+        }
+
+        private void B_input()
+        {
+            if (_input.b)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID5MP);
+                }
+            }
+
+            _input.b = false;
+        }
+
+        private void C_input()
+        {
+            if (_input.c)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID5LK);
+                }
+            }
+
+            _input.c = false;
+        }
+
+        private void D_input()
+        {
+            if (_input.d)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID5MK);
+                }
+            }
+
+            _input.d = false;
+        }
+
+        private void mod_A_input()
+        {
+            if (_input.modA)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID2LP);
+                }
+            }
+
+            _input.modA = false;
+        }
+
+        private void mod_B_input()
+        {
+            if (_input.modB)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID2HP);
+                }
+            }
+
+            _input.modB = false;
+        }
+
+        private void mod_C_input()
+        {
+            if (_input.modC)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID2LK);
+                }
+            }
+
+            _input.modC = false;
+        }
+
+        private void mod_D_input()
+        {
+            if (_input.modD)
+            {
+                if (_hasAnimator)
+                {
+                    // _animator.SetBool(_animIDPunch, true);
+                    _animator.SetTrigger(_animID2HK);
+                }
+            }
+
+            _input.modD = false;
+        }
+
+        private void CombatInput()
+        {
+            A_input();
+            B_input();
+            C_input();
+            D_input();
+            mod_A_input();
+            mod_B_input();
+            mod_C_input();
+            mod_D_input();
         }
 
         private void canMoveTrigger()
