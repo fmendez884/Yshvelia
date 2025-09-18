@@ -20,7 +20,9 @@ public class HitboxTool : MonoBehaviour
     private Dictionary<Transform, Vector3[]> boneTransforms;
     private Dictionary<Transform, float[]> boneMovements;
     private Dictionary<Transform, float> boneMovementTotals;
+#if UNITY_EDITOR
     private double lastEditorTime = 0.0;
+#endif
 
     void OnEnable()
     {
@@ -29,12 +31,16 @@ public class HitboxTool : MonoBehaviour
             animator = targetModel.GetComponent<Animator>();
             InitializeBoneTransforms();
         }
+    #if UNITY_EDITOR
         EditorApplication.update += EditorUpdate;
+    #endif
     }
 
     void OnDisable()
     {
+    #if UNITY_EDITOR
         EditorApplication.update -= EditorUpdate;
+    #endif
     }
 
     private void OnValidate()
@@ -50,6 +56,7 @@ public class HitboxTool : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
     private void EditorUpdate()
     {
         if (isPlaying)
@@ -89,6 +96,7 @@ public class HitboxTool : MonoBehaviour
             }
         }
     }
+#endif
 
     public void AnalyzeAnimation()
     {
@@ -319,7 +327,11 @@ public class HitboxTool : MonoBehaviour
                             // Log movement details
                             Debug.Log($"{bone.name} - Frame: {frame}, Movement Magnitude: {movementMagnitude}");
 
-                            SetAnimationEvent(time, "ActivateHitbox", bone.name, hitbox);
+                            var hbComp = hitbox.GetComponent<hitbox>();
+                            if (hbComp != null)
+                            {
+                                SetAnimationEvent(time, "ActivateHitbox", hbComp.HitboxID);
+                            }
                         }
                         else
                         {
@@ -335,7 +347,11 @@ public class HitboxTool : MonoBehaviour
                             activeHitboxes.Remove(bone);
                             Debug.Log($"Hitbox for {bone.name} deactivated between frames {hitboxFrameRanges[hitbox].startFrame} and {frame}");
 
-                            SetAnimationEvent(time, "DeactivateHitbox", bone.name, hitbox);
+                            var hbComp = hitbox.GetComponent<hitbox>();
+                            if (hbComp != null)
+                            {
+                                SetAnimationEvent(time, "DeactivateHitbox", hbComp.HitboxID);
+                            }
                         }
 
                         isHitboxActive = false;
@@ -354,13 +370,22 @@ public class HitboxTool : MonoBehaviour
         
         GameObject hitbox = Instantiate(hitboxPrefab, boneTransforms[hitboxBone][frameIndex], Quaternion.identity);
         hitbox.transform.SetParent(hitboxBone, true);
-        float scaleMultiplier = 1.0f; 
+        float scaleMultiplier = 1.0f;
         hitbox.transform.localScale *= scaleMultiplier;
 
-        string name = clip.name;
-        name = name.Replace("Armature", "hitbox_");
+        // Stable ID: ParentBone_Clip_Frame
+        string id = $"{hitboxBone.name}_{clip.name}_{frameIndex}";
+        var hbComp = hitbox.GetComponent<hitbox>();
+        if (hbComp != null)
+        {
+            hbComp.HitboxID = id;
+        }
+        else
+        {
+            Debug.LogWarning("Generated hitbox prefab has no 'hitbox' component attached.");
+        }
 
-        hitbox.name = name;
+        hitbox.name = $"hitbox_{id}";
 
         Debug.Log($"Generated hitbox {hitbox.name} at frame {frameIndex} for bone {hitboxBone.name}");
         return hitbox;
@@ -466,7 +491,8 @@ public class HitboxTool : MonoBehaviour
         ClearHitboxes();
     }
 
-    private void SetAnimationEvent(float time, string functionName, string parameter, GameObject hitboxInstance)
+#if UNITY_EDITOR
+    private void SetAnimationEvent(float time, string functionName, string hitboxId)
     {
         if (clip == null)
         {
@@ -477,26 +503,22 @@ public class HitboxTool : MonoBehaviour
         // Get the existing events on the animation clip
         AnimationEvent[] events = AnimationUtility.GetAnimationEvents(clip);
 
-        // Check if an event with the same time and function name already exists
+        // Avoid duplicates matching time, function, and ID
         foreach (AnimationEvent evt in events)
         {
-            if (Mathf.Approximately(evt.time, time) && evt.functionName == functionName)
+            if (Mathf.Approximately(evt.time, time) && evt.functionName == functionName && evt.stringParameter == hitboxId)
             {
-                Debug.Log($"Animation event '{functionName}' at time {time} already exists, skipping creation.");
-                return; // Avoid adding duplicate events
+                Debug.Log($"Animation event '{functionName}' for '{hitboxId}' at time {time} already exists, skipping.");
+                return;
             }
         }
-
-        hitbox hitbox = hitboxInstance.GetComponent<hitbox>();
-        Character character = gameObject.GetComponent<Character>();
 
         // Create the new animation event
         AnimationEvent newEvent = new AnimationEvent
         {
             time = time,
             functionName = functionName,
-            stringParameter = parameter,
-            objectReferenceParameter = character
+            stringParameter = hitboxId
         };
 
         // Add the new event to the list
@@ -508,8 +530,9 @@ public class HitboxTool : MonoBehaviour
         // Set the updated events back to the animation clip
         AnimationUtility.SetAnimationEvents(clip, eventsList.ToArray());
 
-        Debug.Log($"Added animation event '{functionName}' at time {time} with parameter '{parameter}'.");
+        Debug.Log($"Added animation event '{functionName}' at time {time} for '{hitboxId}'.");
     }
+#endif
 
     public void GenerateHitboxesForAnimation()
     {
@@ -548,6 +571,7 @@ public class HitboxTool : MonoBehaviour
 
             bool isHitboxActive = false;
             int startFrame = 0;
+            string currentHitboxId = null;
 
             for (int frame = 0; frame < totalFrames; frame++)
             {
@@ -567,14 +591,18 @@ public class HitboxTool : MonoBehaviour
                         if (!bonesWithHitboxes.Contains(bone))
                         {
                             startFrame = frame;
-                            // Create the hitbox outside of the animation event
-                            CreateHitbox(bone, frame);
+                            // Create the hitbox and record its ID for events
+                            GameObject created = CreateHitbox(bone, frame);
+                            var createdHb = created != null ? created.GetComponent<hitbox>() : null;
                             bonesWithHitboxes.Add(bone);
                             isHitboxActive = true;
 
-                            // Add animation event to activate hitbox at the correct frame
-                            // AddAnimationEvent(clip, time, "ActivateHitbox", bone.name);
-                            SetAnimationEvent(time, "ActivateHitbox", bone.name, hitboxPrefab);
+                            if (createdHb != null)
+                            {
+                                SetAnimationEvent(time, "ActivateHitbox", createdHb.HitboxID);
+                                // Cache current ID for deactivation pairing
+                                currentHitboxId = createdHb.HitboxID;
+                            }
 
                             Debug.Log($"Hitbox creation triggered for {bone.name} at frame {frame}.");
                         }
@@ -585,10 +613,13 @@ public class HitboxTool : MonoBehaviour
                     {
                         if (bonesWithHitboxes.Contains(bone))
                         {
-                            // Add animation event to deactivate the hitbox at the correct frame
-                            AddAnimationEvent(clip, time, "DeactivateHitbox", bone.name);
+                            if (!string.IsNullOrEmpty(currentHitboxId))
+                            {
+                                SetAnimationEvent(time, "DeactivateHitbox", currentHitboxId);
+                            }
                             bonesWithHitboxes.Remove(bone);
                             isHitboxActive = false;
+                            currentHitboxId = null;
 
                             Debug.Log($"Hitbox deactivation triggered for {bone.name} at frame {frame}.");
                         }
@@ -615,18 +646,34 @@ public class HitboxTool : MonoBehaviour
     }
 
     // Create a hitbox for a given bone at a specific frame
-    void CreateHitbox(Transform bone, int frameIndex)
+    GameObject CreateHitbox(Transform bone, int frameIndex)
     {
         // Check if the bone has a parent and if so, assign the hitbox to the parent bone
         Transform hitboxBone = bone.parent != null && bone.parent != this.transform ? bone.parent : bone;
         
         GameObject hitbox = Instantiate(hitboxPrefab, boneTransforms[hitboxBone][frameIndex], Quaternion.identity);
         hitbox.transform.SetParent(hitboxBone, true);
-        float scaleMultiplier = 1.0f; 
+        float scaleMultiplier = 1.0f;
         hitbox.transform.localScale *= scaleMultiplier;
-        Debug.Log($"Generated hitbox at frame {frameIndex} for bone {hitboxBone.name}");
+    
+        // Stable ID: ParentBone_Clip_Frame
+        string id = $"{hitboxBone.name}_{clip.name}_{frameIndex}";
+        var hbComp = hitbox.GetComponent<hitbox>();
+        if (hbComp != null)
+        {
+            hbComp.HitboxID = id;
+        }
+        else
+        {
+            Debug.LogWarning("Generated hitbox prefab has no 'hitbox' component attached.");
+        }
+    
+        hitbox.name = $"hitbox_{id}";
+        Debug.Log($"Generated hitbox at frame {frameIndex} for bone {hitboxBone.name} with id {id}");
+        return hitbox;
     }
 
+#if UNITY_EDITOR
     private void PlayAnimationInEditor()
     {
         if (clip == null)
@@ -636,8 +683,9 @@ public class HitboxTool : MonoBehaviour
         }
 
         clip.SampleAnimation(targetModel, currentTime);
-        EditorUtility.SetDirty(targetModel);  
+        EditorUtility.SetDirty(targetModel);
     }
+#endif
 
     private void RepaintScene() 
     {
@@ -666,7 +714,9 @@ public class HitboxTool : MonoBehaviour
         InitializeBoneTransforms();
         currentTime = 0f;
         isPlaying = true;
+#if UNITY_EDITOR
         lastEditorTime = EditorApplication.timeSinceStartup;
+#endif
     }
 
     public void StopPlayback()

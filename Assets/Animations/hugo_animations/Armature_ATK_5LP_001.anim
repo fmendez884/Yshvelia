@@ -74224,9 +74224,191 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm left shoulder 2_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: unused x_larm2_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm left roll 1_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm left wrist_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 2_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 2a_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 45_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 4a_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 4b_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 4c_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 5a_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 5b_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: ActivateHitbox
+    data: arm right finger 5c_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.45833334
     functionName: DeactivateHitbox
     data: arm left elbow
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm left shoulder 2_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: unused x_larm2_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm left roll 1_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm left wrist_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 2_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 2a_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 45_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 4a_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 4b_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 4c_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 5a_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 5b_Armature_ATK_5LP_001_10
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.45833334
+    functionName: DeactivateHitbox
+    data: arm right finger 5c_Armature_ATK_5LP_001_10
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
